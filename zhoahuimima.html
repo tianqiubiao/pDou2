@@ -4,41 +4,86 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="public/stylesheets/01.css">
-    <link rel="stylesheet" href="public/stylesheets/style.css">
-    <link rel="stylesheet" href="public/stylesheets/fingqi.css">
-    <style>
 
-    </style>
+
 </head>
 <body>
 <div class="top">
     <div class="topNav">
         <ul class="topNavLeft">
             <li class="to">客服电话: &nbsp;<a href="tel:400-859-9090">400-859-9090</a></li>
-            <li class="wx">客服微信 <img src="public/images/weixin.png" alt="" class="w"></li>
+            <li class="wx">客服微信 <img src="public/images/default.gif" trueImg="public/images/weixin.png" alt=""
+                                     class="w"></li>
         </ul>
         <ul class="topNavRight">
             <li class="to1">P兜APP</li>
             <li class="topNavPad">
                 <ul class="topNavPeople">
-                    <li class="id_zh to2">注册<span><p>领活动本金</p></span></li>
-                    <li class="sign">登录</li>
+                    <li class="id_zh to2 pointer">注册<span><p>领活动本金</p></span></li>
+                    <li class="sign pointer ">用户名</li>
                 </ul>
             </li>
-            <li class="id_helpIng">帮助中心</li>
+            <li class="id_helpIng pointer">帮助中心</li>
         </ul>
     </div>
 </div>
 <!--导航-->
 <div class="second">
     <div class="secondTop">
-        <div><img src="public/images/h1.png" alt="P兜理财"></div>
+        <div><img src="public/images/default.gif" trueImg="public/images/h1.png" alt="P兜理财"></div>
         <div id="banCard0">
             <div class="navColor">首页</div>
             <div>定期理财</div>
             <div>他人转让</div>
             <div>安全保障</div>
             <div>关于我们</div>
+        </div>
+    </div>
+</div>
+<div class="password">
+    <div class="passwordTop"><span></span> 找回密码</div>
+    <div class="passwordFoot">
+        <div class="passwordFootA">
+            <div class="passwordFootB"><span>*</span>手机号码</div>
+            <div class="passwordFootC">
+                <div class="passwordFootD"><input type="tel" placeholder="请输入您的手机号码" id="userId"></div>
+            </div>
+        </div>
+        <div class="passwordFootA">
+            <div class="passwordFootB"><span>*</span>图形验证码</div>
+            <div class="passwordFootC">
+                <div class="passwordFootE"><input type="text" placeholder="不区分大小写"></div>
+                <div class="passwordFootF">
+                    <div></div>
+                    <div>点击换图</div>
+                </div>
+            </div>
+        </div>
+        <div class="passwordFootDown">下一步</div>
+        <div class="passwordFootDown" style="display: none;">重新发送</div>
+    </div>
+    <div id="worUesr"></div>
+    <div id="trueI"></div>
+
+</div>
+<div class="sign_on">
+    <div class="messgess">
+        <div class="messgess_top">短信验证</div>
+        <div class="sign_close"></div>
+        <div class="messgess_foot">
+            <div class="messgess_foot_top">验证码已发送至您的手机，2分钟内验证有效。</div>
+            <div class="messgess_footA" style="    margin: 15px 0;">
+                <div  class="messgess_footAL" style="width: 93px;">真实姓名：</div>
+                <div class="messgess_footAR" style="    width: 250px;"><input type="text"></div>
+            </div>
+            <div class="messgess_footA">
+                <div  class="messgess_footAL">短信验证码：</div>
+                <div class="messgess_footAR"><input type="text"></div>
+            </div>
+            <div class="messgess_footB">
+                <div class="messgess_footBL">确 认</div>
+                <div class="messgess_footBR">重新获取</div>
+            </div>
         </div>
     </div>
 </div>
@@ -96,6 +141,5 @@
     </div>
     <div class="sign_on"></div>
 </div>
-<div class="sign_on"></div>
 </body>
 </html>
