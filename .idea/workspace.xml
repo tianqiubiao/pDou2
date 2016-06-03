@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a932d781-f958-4191-930b-08212efd01c8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_ous.html" afterPath="$PROJECT_DIR$/about_ous.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-wodetouzi.html" afterPath="$PROJECT_DIR$/account-wodetouzi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account_qdxiangqing.html" afterPath="$PROJECT_DIR$/account_qdxiangqing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account_safe.html" afterPath="$PROJECT_DIR$/account_safe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpIng.html" afterPath="$PROJECT_DIR$/helpIng.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posMoney.html" afterPath="$PROJECT_DIR$/posMoney.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/app.css" afterPath="$PROJECT_DIR$/public/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safe.html" afterPath="$PROJECT_DIR$/safe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sellMoney.html" afterPath="$PROJECT_DIR$/sellMoney.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tarenzhuanrang.html" afterPath="$PROJECT_DIR$/tarenzhuanrang.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transferMoney_F.html" afterPath="$PROJECT_DIR$/transferMoney_F.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w-accountjiaoyijilu.html" afterPath="$PROJECT_DIR$/w-accountjiaoyijilu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w-dingqitoubiao.html" afterPath="$PROJECT_DIR$/w-dingqitoubiao.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w-wodebenjn.html" afterPath="$PROJECT_DIR$/w-wodebenjn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w-wodexiaoxi.html" afterPath="$PROJECT_DIR$/w-wodexiaoxi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w-wodezhnghu.html" afterPath="$PROJECT_DIR$/w-wodezhnghu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wodetouzi.html" afterPath="$PROJECT_DIR$/wodetouzi.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w-myfriend.html" afterPath="$PROJECT_DIR$/w-myfriend.html" />
     </list>
     <ignored path="pDou2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,10 +85,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/css/app.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2580231">
+                <state vertical-scroll-proportion="-6.9310346">
                   <caret line="2935" column="29" selection-start-line="2935" selection-start-column="29" selection-end-line="2935" selection-end-column="29" />
                   <folding />
                 </state>
@@ -177,11 +156,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="w-myfriend.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="w-myfriend.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/w-myfriend.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-13.068966">
-                  <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+                <state vertical-scroll-proportion="0.8459563">
+                  <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="84" selection-end-column="18" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -334,10 +313,10 @@
         <option value="$PROJECT_DIR$/w-wodebenjn.html" />
         <option value="$PROJECT_DIR$/w-wodexiaoxi.html" />
         <option value="$PROJECT_DIR$/w-wodezhnghu.html" />
-        <option value="$PROJECT_DIR$/w-myfriend.html" />
         <option value="$PROJECT_DIR$/safe.html" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/public/css/app.css" />
+        <option value="$PROJECT_DIR$/w-myfriend.html" />
       </list>
     </option>
   </component>
@@ -1028,19 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/w-myfriend.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.068966">
-          <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/account_safe.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.310345">
@@ -1101,9 +1067,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2580231">
+        <state vertical-scroll-proportion="-6.9310346">
           <caret line="2935" column="29" selection-start-line="2935" selection-start-column="29" selection-end-line="2935" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w-myfriend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8459563">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="84" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
