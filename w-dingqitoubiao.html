@@ -3,38 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="public/stylesheets/01.css">
+    <link rel="stylesheet" href="public/css/app.css">
 
 </head>
 <body>
-<div class="top">
+<div class="top" style="display: none">
     <div class="topNav">
         <ul class="topNavLeft">
             <li class="to">客服电话: &nbsp;<a href="tel:400-859-9090">400-859-9090</a></li>
-            <li class="wx">客服微信 <img src="public/images/weixin.png" alt="" class="w"></li>
+            <li class="wx">客服微信 <img src="public/images/weixin.png" alt=""
+                                     class="w"></li>
         </ul>
         <ul class="topNavRight">
             <li class="to1">P兜APP</li>
             <li class="topNavPad">
                 <ul class="topNavPeople">
-                    <li class="id_zh to2">注册<span><p>领活动本金</p></span></li>
-                    <li class="sign">登录</li>
+                    <li class="id_zh to2 pointer"><a href="register.html" class=" color6">注册<span><p>领活动本金</p></span></a></li>
+                    <li class="sign pointer ">登录</li>
                 </ul>
             </li>
-            <li class="id_helpIng">帮助中心</li>
+            <li class="id_helpIng pointer"><a href="helpIng.html" class="color6" target="_blank">帮助中心</a></li>
+        </ul>
+    </div>
+</div>
+<div class="top">
+    <div class="topNav row">
+        <ul class="topNavLeft">
+            <li class="to">客服电话: &nbsp;<a href="tel:400-859-9090">400-859-9090</a></li>
+            <li class="wx">客服微信 <img src="public/images/weixin.png" alt=""
+                                     class="w"></li>
+        </ul>
+        <ul class="right topNavRight">
+            <li class="to1">P兜APP</li>
+            <li class="uesr_name">
+                <div><span>&nbsp;</span>&nbsp;<span>我的账户</span>&nbsp;<span>[137****000]</span></div>
+            </li>
+            <li class="afterDis color_pink">
+                消息
+            </li>
+            <li>退出</li>
+            <li class="id_helpIng pointer"><a href="helpIng.html" class="color6" target="_blank">帮助中心</a></li>
         </ul>
     </div>
 </div>
 <!--导航-->
+
 <div class="second">
-    <div class="secondTop">
-        <div><img src="public/images/h1.png" alt="P兜理财"></div>
-        <div id="banCard0">
-            <div class="navColor">首页</div>
-            <div>定期理财</div>
-            <div>他人转让</div>
-            <div>安全保障</div>
-            <div>关于我们</div>
+
+    <div class="secondTop row">
+        <div class="left"><img src="public/images/h1.png" alt="P兜理财"></div>
+        <div id="banCard0" class="left">
+            <div class="navColor">&nbsp;&nbsp;首页</div>
+            <div class=" pointer"><a href="sellMoney.html">定期理财</a></div>
+            <div class=" pointer"><a href="tarenzhuanrang.html">他人转让</a></div>
+            <div class=" pointer"><a href="safe.html">安全保障</a></div>
+            <div class=" pointer"><a href="about_ous.html">关于我们</a></div>
         </div>
     </div>
 </div>
@@ -52,7 +75,7 @@
                 <div class="posMoneyTopA">
                     <div class="posMoneyTopA1">
                         <div>年化收益率</div>
-                        <div><span>10</span><span>%</span><span>+</span><span>2</span><span>%</span></div>
+                        <div><span class="color_pink font_32">10</span><span class="color_pink font_18">%</span><span class="font_14 yellowNum">+</span><span class="yellowNum">2</span><span class="font_18 yellowNum">%</span></div>
                     </div>
                     <div class="posMoneyTopA2">
                         <div>期限</div>
@@ -65,17 +88,21 @@
                     </div>
                     <div class="posMoneyTopA4">
                         <div class="posMoneyTopA4m">
-                            <div></div>
-                            <div></div>
-                            <div>已满标</div>
+                            <div class="bfb_yuan wh100 border_y_green">
+                                <div class="bg_cdf"></div>
+                                <div class="height_yuan "></div>
+                                <div class="wh88 bg_6ed"></div>
+                                <div class="height_yuan wh100"></div>
+                                <div class="line-height100 font_25">50%</div>
+                            </div>
                         </div>
 
                     </div>
                 </div>
-                <div class="posMoneyTopB">
+                <div class="posMoneyTopB font_14">
 
-                    <div class="posMoneyTopLB"><p>还款方式&nbsp;<span>按月付息&nbsp;到期还本</span></p></div>
-                    <div class="posMoneyTopLC"><p>满标时间&nbsp;<span>2016.06.07&nbsp;20:36:56</span></p></div>
+                    <div class="posMoneyTopLB"><p class="color9">还款方式&nbsp;<span class="font_16 color3">按月付息&nbsp;到期还本</span></p></div>
+                    <div class="posMoneyTopLC"><p class="color9">满标时间&nbsp;<span class="font_16">2016.06.07&nbsp;20:36:56</span></p></div>
 
                 </div>
             </div>
@@ -91,7 +118,7 @@
                             </div>
                             <div class="absFootA">
                                 <div>账户余额</div>
-                                <div style=" color: #666666;font-size: 10px;">登录可查看</div>
+                                <div style=" color: #666666;">登录可查看</div>
                             </div>
                         </div>
                         <div>
@@ -99,13 +126,13 @@
                         </div>
                         <div class="absFootB">
                             <div class="absFootC">
-                                <div>-</div>
-                                <div><input type="text" placeholder="100元起投"></div>
-                                <div>+</div>
+                                <div class="font_14">-</div>
+                                <div style="line-height: 30px"><input type="text" placeholder="100元起投" class="font_14"></div>
+                                <div class="font_14">+</div>
                             </div>
                         </div>
-                        <div class=" absFootD">预期收益 <span class="redNum">67909 元</span></div>
-                        <div class="absFootE">立刻购买</div>
+                        <div class=" absFootD">预期收益 <span class="redNum font_14">67909 元</span></div>
+                        <div class="absFootE font_14">立刻购买</div>
                     </div>
                 </div>
             </div>
