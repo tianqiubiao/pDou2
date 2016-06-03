@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -17,7 +17,7 @@
             <li class="to1">P兜APP</li>
             <li class="topNavPad">
                 <ul class="topNavPeople">
-                    <li class="id_zh to2 pointer">注册<span><p>领活动本金</p></span></li>
+                    <li class="id_zh to2 pointer"><a href="register.html" class=" color6">注册<span><p>领活动本金</p></span></a></li>
                     <li class="sign pointer ">登录</li>
                 </ul>
             </li>
@@ -30,7 +30,7 @@
     <div class="secondTop row">
         <div class="left"><img src="public/images/h1.png" alt="P兜理财"></div>
         <div id="banCard0" class="left">
-            <div class=" pointer"><a href="public.html">&nbsp;&nbsp;首页</a></div>
+            <div class=" pointer"><a href="index.html">&nbsp;&nbsp;首页</a></div>
             <div class=" pointer"><a href="sellMoney.html">定期理财</a></div>
             <div class="navColor">他人转让</div>
             <div class=" pointer"><a href="safe.html">安全保障</a></div>
@@ -50,14 +50,14 @@
         <div class="moneyT">
             <div class="moneyOuter">
                 <div><span>项目状态：</span>
-                    <ul>
+                    <ul class="money_item_list">
                         <li class="bgOrange">全部</li>
                         <li>投标中</li>
                         <li>已结束</li>
                     </ul>
                 </div>
                 <div class="border"><span>项目期限：</span>
-                    <ul>
+                    <ul class="money_item_list">
                         <li class="bgOrange">全部</li>
                         <li>0-90天</li>
                         <li>90-180天</li>
@@ -67,7 +67,7 @@
                     </ul>
                 </div>
                 <div><span>项目收益：</span>
-                    <ul>
+                    <ul class="money_item_list">
                         <li class="bgOrange">全部</li>
                         <li>9% 以下</li>
                         <li>9-10%</li>
@@ -271,7 +271,7 @@
             </div>
 
         </div>
-        <div class="fyList row ">
+        <div class="fyList row  " id="other_money_list">
             <div class="fylistBtn">上一页</div>
             <div>
                 <ul>
@@ -342,7 +342,37 @@
             </div>
         </div>
     </div>
-    <div class="sign_on"></div>
+
 </div>
+<div class="sign_on" style="display: none">
+    <div class="sign_in">
+        <div class="sign_top">登录</div>
+        <div class="sign_close"></div>
+        <div class="sign_foot">
+            <div class="sign_footA">
+                <div class="sign_footB sign_footD sign_phone"><input type="tel" placeholder="手机号"></div>
+                <div class="sign_footC"></div>
+            </div>
+            <div class="sign_footA">
+                <div class="sign_footB sign_footD sign_footE sign_pass"><input type="password" placeholder="密码"></div>
+                <div class="sign_footC">您输入的密码有误</div>
+            </div>
+            <div class="sign_footE">
+                <div class="sign_footA">
+                    <div class="sign_footB"><input type="text" placeholder="不区分大小写"></div>
+                    <div class="sign_fooC">验证码错误</div>
+                </div>
+                <div class="sign_footF"></div>
+            </div>
+            <div class="sign_down">登录</div>
+            <div class="sign_in_down">
+                <div class="redNum">注册领活动本金</div>
+                <div class="queNum">忘记密码</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="public/js/jquery.min.js"></script>
+<script type="text/javascript" src="public/js/app.js"></script>
 </body>
 </html>

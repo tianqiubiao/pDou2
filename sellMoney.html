@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -32,7 +32,7 @@
     <div class="secondTop row">
         <div class="left"><img src="public/images/h1.png" alt="P兜理财"></div>
         <div id="banCard0" class="left">
-            <div class=" pointer"><a href="public.html">&nbsp;&nbsp;首页</a></div>
+            <div class=" pointer"><a href="index.html">&nbsp;&nbsp;首页</a></div>
             <div class="navColor">定期理财</div>
             <div class=" pointer"><a href="tarenzhuanrang.html">他人转让</a></div>
             <div class=" pointer"><a href="safe.html">安全保障</a></div>
@@ -210,7 +210,7 @@
 
                 </div>
 
-                <div class="fyList row ">
+                <div class="fyList row " id="sell_money_list">
                     <div class="fylistBtn">上一页</div>
                     <div>
                         <ul>
@@ -285,7 +285,37 @@
             </div>
         </div>
     </div>
-    <div class="sign_on"></div>
 </div>
+<div class="sign_on" style="display: none">
+    <div class="sign_in">
+        <div class="sign_top">登录</div>
+        <div class="sign_close"></div>
+        <div class="sign_foot">
+            <div class="sign_footA">
+                <div class="sign_footB sign_footD sign_phone"><input type="tel" placeholder="手机号"></div>
+                <div class="sign_footC"></div>
+            </div>
+            <div class="sign_footA">
+                <div class="sign_footB sign_footD sign_footE sign_pass"><input type="password" placeholder="密码"></div>
+                <div class="sign_footC">您输入的密码有误</div>
+            </div>
+            <div class="sign_footE">
+                <div class="sign_footA">
+                    <div class="sign_footB"><input type="text" placeholder="不区分大小写"></div>
+                    <div class="sign_fooC">验证码错误</div>
+                </div>
+                <div class="sign_footF"></div>
+            </div>
+            <div class="sign_down">登录</div>
+            <div class="sign_in_down">
+                <div class="redNum">注册领活动本金</div>
+                <div class="queNum">忘记密码</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="public/js/jquery.min.js"></script>
+<script type="text/javascript" src="public/js/app.js"></script>
+
 </body>
 </html>

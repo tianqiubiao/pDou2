@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -34,7 +34,7 @@
     <div class="secondTop row">
         <div class="left"><img src="public/images/h1.png" alt="P兜理财"></div>
         <div id="banCard0" class="left">
-            <div class=" pointer"><a href="public.html">&nbsp;&nbsp;首页</a></div>
+            <div class=" pointer"><a href="index.html">&nbsp;&nbsp;首页</a></div>
             <div class=" pointer"><a href="sellMoney.html">定期理财</a></div>
             <div class=" pointer"><a href="tarenzhuanrang.html">他人转让</a></div>
             <div class=" pointer"><a href="safe.html">安全保障</a></div>
@@ -58,8 +58,6 @@
                 </div>
             </div>
             <div class="banOuter" id="bandCard2">
-
-
                 <div class="bandCard1 navDis">
                     <div class="about-banner">
                         <div class="module">
@@ -317,7 +315,7 @@
                             </div>
 
                         </div>
-                        <div class="fyList row">
+                        <div class="fyList row" id="news_about">
                             <div class="fylistBtn">上一页</div>
                             <div>
                                 <ul>
@@ -514,210 +512,44 @@
             </div>
         </div>
     </div>
-    <div class="sign_on"></div>
+
 </div>
-<div class="sign_on"></div>
+<div class="sign_on" style="display: none">
+    <div class="sign_in">
+        <div class="sign_top">登录</div>
+        <div class="sign_close"></div>
+        <div class="sign_foot">
+            <div class="sign_footA">
+                <div class="sign_footB sign_footD sign_phone"><input type="tel" placeholder="手机号"></div>
+                <div class="sign_footC"></div>
+            </div>
+            <div class="sign_footA">
+                <div class="sign_footB sign_footD sign_footE sign_pass"><input type="password" placeholder="密码"></div>
+                <div class="sign_footC">您输入的密码有误</div>
+            </div>
+            <div class="sign_footE">
+                <div class="sign_footA">
+                    <div class="sign_footB"><input type="text" placeholder="不区分大小写"></div>
+                    <div class="sign_fooC">验证码错误</div>
+                </div>
+                <div class="sign_footF"></div>
+            </div>
+            <div class="sign_down">登录</div>
+            <div class="sign_in_down">
+                <div class="redNum">注册领活动本金</div>
+                <div class="queNum">忘记密码</div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
 
-<script src="public/javascripts/jquery.min.js"></script>
-<script src="public/javascripts/sign_in.js"></script>
+<script src="public/js/jquery.min.js"></script>
+<script type="text/javascript" src="public/js/app.js"></script>
 <script>
-    (function () {
-
-        var imgList = document.getElementsByTagName('img');
-
-        function init() {
-            for (var i = 0; i < imgList.length; i++) {
-                ~function (i) {
-                    var curImg = imgList[i];
-
-                    if (curImg.isLoad) return;
-
-                    var curImgT = utils.offset(curImg).top + curImg.offsetHeight;
-
-                    var winT = (document.documentElement.clientHeight || document.body.clientHeight) + (document.documentElement.scrollTop || document.body.scrollTop);
-
-                    if (curImgT < winT) {
-                        var oImg = new Image;
-                        oImg.src = curImg.getAttribute("trueImg");
-                        oImg.onload = function () {
-
-                            curImg.src = this.src;
-                            curImg.isLoad = true;
-                            fadeIn(curImg);
-                        }
-                    }
-                }(i);
-            }
-        }
-
-        function fadeIn(curImg) {
-            var step = (1 / 100) * 10;
-            var count = 0;
-            var timer = window.setInterval(function () {
-                                               if (count >= 1) {
-                                                   window.clearInterval(timer);
-                                                   curImg.style.opacity = 1;
-                                                   curImg.style.filter = "alpha(opacity=100)";
-                                                   return;
-                                               }
-                                               count += step;
-                                               curImg.style.opacity = count;
-                                               curImg.style.filter = "alpha(opacity=" + count * 100 + ")";
-                                           }, 10
-            );
-        }
-
-        var utils = {};
-        utils.offset = function (curEle) {
-            var t = curEle.offsetTop, l = curEle.offsetLeft, p = curEle.offsetParent;
-            while (p) {
-                if (navigator.userAgent.indexOf("MSIE 8.0") === -1) {
-                    t += p.clientTop;
-                    l += p.clientLeft;
-                }
-                t += p.offsetTop;
-                l += p.offsetLeft;
-                p = p.offsetParent;
-            }
-            return {top: t, left: l};
-        };
-
-        window.setTimeout(function () {
-            init()
-        }, 0);
-        window.onscroll = init;
-
-
-    })()
-
-    itemList("money_item_list", 'bgOrange');
-    itemList('fyList', 'fyListBg')
-    function itemList(list1, list2) {
-        var fys = document.getElementsByClassName(list1)
-        for (var o = 0, lengthA = fys.length; o < lengthA; o++) {
-            fyList(fys[o], list2)
-        }
-    }
-    function fyList(a, b) {
-        $(a).find('li').click(function () {
-                                  var fyList = $(a).find('li');
-                                  for (var i = 0, len = fyList.length; i < len; i++) {
-                                      if (this === fyList.get(i)) {
-                                          fyList.get(i).className = b
-                                      } else {
-                                          fyList.get(i).className = ""
-
-                                      }
-                                  }
-                              }
-        )
-    }
-
-
-    $(".sign").click(function () {
-                         if ($(this).text() === '登录') {
-
-//                             login();
-////                             register();
-                             $('.sign_on').css('display', 'block');
-                         } else {
-
-                             $('#bandCard').css('display', 'none');
-                             $('.my_account').css('display', 'block');
-
-                         }
-                     }
-    )
-    //注册页面
-//    $('.id_zh').click(function () {
-////        window.open('register.html')
-//                          register();
-//                      }
-//    )
-    $('.id_helpIng').click(function () {
-                               window.open('helpIng.html')
-                           }
-    )
-//    code('banCard0', 'bandCard', 'banCard0', 'navColor', 'div');
-    code('bandCard1', 'bandCard2', 'bandCard1', 'greenNum', 'li');
-//    code('my_accountLeft', 'my_accountRight', 'my_account01', 'bg', 'div');
-//    $('.my_accountRight .my_account01').css('display', 'none');
     $('.banOuter .bandCard1').css('display', 'none');
-    function code(a, b, c, d, e) {
-        var ulList = document.getElementById(a), ulLists = ulList.getElementsByTagName(e);
-        var divList = document.getElementById(b), divLists = divList.getElementsByClassName(c);
-        ~function bindCard(far, son) {
-            for (var i = 0, len = far.length; i < len; i++) {
-                ~function (i) {
-                    far[i].onclick = function (e) {
-                        e.stopPropagation()
-                        e.returnValue = false;
-                        for (var j = 0, len = son.length; j < len; j++) {
-                            if (j === i) {
-                                if (e.target === far[i]) {
-                                    $('#bandCard').css('display', 'block');
-                                    $('.my_account').css('display', 'none')
-                                } else {
-                                    $('#bandCard').css('display', 'none');
-                                    $('.my_account').css('display', 'block')
-                                }
-
-                                far[i].className = d;
-                                son[i].className = c + " navDis";
-
-                                continue;
-                            } else {
-
-                                far[j].className = "  pointer ";
-                                son[j].className = c;
-
-                            }
-                        }
-                    }
-                }(i)
-            }
-        }(ulLists, divLists)
-    }
-
-    $('#true_qd').click(function () {
-//            init()
-                            var boole = document.getElementById('bool');
-                            if (!boole.bool) {
-                                boole.setAttribute('bool', 'true');
-                            }
-
-
-                            if (!!(boole.bool = "true")) {
-                                boole.setAttribute('bool', 'false');
-                                $(this).text('已签到');
-                                $(this).attr("class", 'noqd')
-                                $('#my_account_qd').css('display', 'block');
-
-                                accountQianDao();
-                                $('#true_qd').unbind('click');
-                                return;
-                            }
-
-                        }
-    )
-    function accountQianDao() {
-        var timer = window.setTimeout(function () {
-                                          $('#my_account01Top').css('display', 'none');
-                                          $('#my_account01Foot').css('display', 'block');
-                                          $('#my_account_qd').css('display', 'none');
-
-                                          window.clearTimeout(timer);
-                                          accountQianDao = null;
-                                      }, 3000
-        )
-    }
-    $('#bool').click(function () {
-                         $('#my_account01Top').css('display', 'block');
-                         $('#my_account01Foot').css('display', 'none');
-                     }
-    )
+    code('bandCard1', 'bandCard2', 'bandCard1', 'greenNum', 'li');
     function isNumeric(obj) {
         return !isNaN(parseFloat(obj)) && isFinite(obj);
     }
@@ -725,12 +557,12 @@
           $(".img").hover(function () {
                               var className = $(this).attr("data-name");
                               $("." + className).fadeIn(400).siblings().hide();
-                          }, function () {
+                          },
+                          function () {
                               $(".pd_warp").find(".content").hide();
                           }
           );
+        $("#about").addClass("live").siblings().removeClass("live");
+      });
 
-          $("#about").addClass("live").siblings().removeClass("live");
-      }
-    );
 </script>

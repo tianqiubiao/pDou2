@@ -838,7 +838,7 @@ font-size: 14px}
     position: absolute;
     left: -1px;
     bottom: -1px;
-    width: 101%;
+    width: 262px;
     height: 40px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -1000,7 +1000,7 @@ font-size: 14px}
     position: absolute;
     left: -1px;
     bottom: -1px;
-    width: 101%;
+    width:260px;
     height: 40px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -1869,7 +1869,7 @@ input {
     position: relative;
     margin: 0 auto;
     width: 1100px;
-    height: 700px
+    height: 677px
 }
 
 .posMoneyFoot .posMoneyFootTop {
@@ -1907,7 +1907,7 @@ input {
     top: 35px;
     padding: 0 0 0 65px;
     width: 1035px;
-    height: 640px;
+
     border-top: 2px solid #f77f96
 }
 
@@ -1954,8 +1954,9 @@ input {
 .posMoneyFoot .posMoneyFootA .posMoneyTT {
     position: absolute;
     left: 0;
-    height: 100%;
-    text-align: center
+    height: 630px;
+    text-align: center;
+    background: #FFFFFF;
 }
 
 .posMoneyFoot .posMoneyFootA .posMoneyTT .posMoneyTouZi {
@@ -1999,7 +2000,8 @@ input {
     overflow: hidden;
     padding: 0 40px;
     height: 49px;
-    line-height: 45px
+    line-height: 45px;
+
 }
 
 .posMoneyTopT div:nth-child(1) {
@@ -2178,7 +2180,7 @@ input {
     line-height: 35px
 }
 
-.absMoneyFootLeft .absTopH {
+ .absTopH {
     overflow: hidden;
     padding-top: 26px;
     width: 675px;
@@ -2186,23 +2188,23 @@ input {
     border-top: 1px dashed #EEE
 }
 
-.absMoneyFootLeft .absTopH div {
+ .absTopH div {
     float: left
 }
-
-.absMoneyFootLeft .absTopH .absTopHa {
-    float: right
+ .absTopH .absTopHa {
+    float: right;
+     line-height: 20px;
 }
 
-.absMoneyFootLeft .absTopH div p {
+ .absTopH div p {
     color: #000
 }
 
-.absMoneyFootLeft .absTopH div p span {
+ .absTopH div p span {
     color: #666
 }
 
-.absMoneyFootLeft .absTopH .absTopHa span {
+ .absTopH .absTopHa span {
     display: inline-block;
     width: 28px;
     height: 20px;
@@ -2283,13 +2285,13 @@ input {
 }
 
 .posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA3 div:nth-child(1) {
-    height: 85px;
+    height: 62px;
     line-height: 85px
 }
 
 .posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA3 div:nth-child(2) {
-    height: 35px;
-    line-height: 35px
+    height: 60px;
+    line-height: 50px
 }
 
 .posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA4 .posMoneyTopA4m {
@@ -2313,7 +2315,7 @@ input {
 .posMoney .posMoneyTopF .posMoneyTopB .posMoneyTopLB, .posMoney .posMoneyTopF .posMoneyTopB .posMoneyTopLC {
     float: left;
 
-    line-height: 55px
+    margin:20px 0;
 }
 
 .posMoney .posMoneyTopF .posMoneyTopB .posMoneyTopLC {
@@ -2732,12 +2734,6 @@ input:focus {
     background: url(../images/close.png) no-repeat
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%
-}
 
 .sign_on {
     position: fixed;
@@ -2937,7 +2933,7 @@ input:focus {
 }
 
 .color_pink {
-    color: #f77f96
+    color: #f77f96!important;
 }
 
 .yelBtnBG {
@@ -3182,7 +3178,8 @@ b:hover img {
 }
 
 .my_account03Top, .my_account06Top, .my_account06center, .my_accountbandTop {
-    padding: 0 25px
+    padding: 0 25px;
+
 }
 
 .my_account06center {
@@ -3203,7 +3200,7 @@ b:hover img {
     height: 65px;
     border-bottom: 1px dashed #CCC;
     color: #6ed3d6;
-    font-size: 25px;
+    font-size: 24px;
     line-height: 65px
 }
 
@@ -3289,6 +3286,7 @@ b:hover img {
     margin-top: 25px;
     width: 444px;
     height: 25px;
+    font-size: 14px;
     text-align: center;
     line-height: 25px
 }
@@ -3809,9 +3807,6 @@ d {
     line-height: 100px
 }
 
-.font_14 {
-    font-size: 14px
-}
 
 .Date {
     margin-top: 20px;
@@ -4439,7 +4434,8 @@ font-size: 14px;
     height: 43px;
     color: #000;
     text-align: center;
-    line-height: 43px
+    line-height: 43px;
+    font-size: 14px;
 }
 
 .my_Account .my_accountLeft div {
@@ -4450,19 +4446,22 @@ font-size: 14px;
     background: #f77f96;
     color: #fff
 }
-
+.my_Account .my_accountLeft div.bg a{
+    color: #FFFFFF !important;
+}
 .my_Account .my_accountLeft div:last-child {
     margin: 0
 }
 
 .my_Account .my_accountRight {
     float: right;
-    width: 911px
+    width: 911px;
+    min-height: 350px;
 }
 
 .my_account1Top {
-    padding: 15px 50px;
-    width: 825px;
+    padding: 15px 40px;
+    width: 829px;
     height: 240px;
     border: 1px solid #eee;
     background: #FFF
@@ -4677,7 +4676,7 @@ font-size: 14px;
 }
 
 .my_account1Footer {
-    width: 927px;
+    width: 911px;
     height: 295px
 }
 
@@ -4720,7 +4719,7 @@ font-size: 14px;
     float: left;
     margin-left: 5px;
     padding: 0 10px 0 20px;
-    width: 150px;
+    width: 147px;
     height: 40px;
     background: #FFF;
     line-height: 40px
@@ -4809,87 +4808,16 @@ font-size: 14px;
     color: #FFE46C !important
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%
-}
 
-.sign_on {
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: none;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, .5)
-}
 
-.sign_on .sign_in {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -162px 0 0 -208px;
-    width: 415px;
-    height: 325px;
-    border-radius: 5px;
-    background: #fff
-}
 
-.sign_on .sign_in .sign_top {
-    height: 40px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    background: #ff9696;
-    color: #fff;
-    text-align: center;
-    font-size: 20px;
-    line-height: 40px
-}
 
-.sign_on .sign_in .sign_close {
-    position: absolute;
-    top: 8px;
-    left: 374px;
-    width: 28px;
-    height: 28px;
-    background: url(../images/close.png) no-repeat
-}
 
 .sign_on .sign_in .sign_foot {
     padding: 17px 34px
 }
 
-.sign_on .sign_in .sign_foot .sign_footA {
-    position: relative;
-    height: 60px
-}
 
-.sign_on .sign_in .sign_foot .sign_footA .sign_footB {
-    height: 40px
-}
-
-.sign_on .sign_in .sign_footA .sign_footC {
-    position: absolute;
-    top: 45px;
-    display: none;
-    width: 300px;
-    height: 15px;
-    color: red;
-    font-size: 10px;
-    line-height: 15px
-}
-
-.sign_on .sign_in .sign_foot .sign_down {
-    height: 40px;
-    border-radius: 5px;
-    background: #f4b942;
-    color: #fff;
-    text-align: center;
-    font-size: 20px;
-    line-height: 40px
-}
 
 .sign_in_down {
     overflow: hidden;
@@ -5702,3 +5630,12 @@ input:focus {
     margin-top: 65px
 ;
 }
+
+.wh21{
+    width: 25px;
+    height: 21px;;;
+}
+.time_fast{
+}
+
+
