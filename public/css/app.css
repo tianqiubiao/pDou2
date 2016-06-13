@@ -24,7 +24,8 @@ a {
 }
 
 body, html {
-    width: 100%
+    width: 100%;
+    background: #f9f9f9;;
 }
 
 .banner, .center, .foot, .last, .pic, .second, .sing, .top {
@@ -47,7 +48,7 @@ body, html {
 
 .top .topNav {
 font-size: 14px;
-    color: #666;
+    color: #333;
 }
 .uesr_name div {
     margin: 0 10px;
@@ -112,7 +113,8 @@ font-size: 14px;
 
 .top {
     padding: 10px 0;
-    height: 20px
+    height: 20px;
+    background: #FFFFFF;
 }
 
 
@@ -213,8 +215,9 @@ font-size: 14px;
 .second .secondTop div:nth-child(1) {
 
     margin-top: 20px;
-    width: 425px;
-    height: 100%
+    margin-left: 20px;
+    width: 405px;
+    height: 100%;
 }
 
 .second .secondTop div:nth-child(2) {
@@ -256,10 +259,7 @@ font-size: 14px;
     left: 80px;
 }
 .banner_font span{
-    font-size: 45px;
-}
-.navColor {
-    color: #FFE46C !important
+    font-size: 42px;
 }
 
 .navDis {
@@ -332,7 +332,8 @@ font-size: 14px;
 
 .pic {
     overflow: hidden;
-    padding-bottom: 45px
+    padding-bottom: 45px;
+    background: #FFFFFF;
 }
 
 .pic .picList {
@@ -389,9 +390,9 @@ font-size: 14px;
 }
 
 .pic .picList .picListe p {
-    color: #999;
+    color: #666;
     text-align: center;
-    font-size: 16px
+    font-size: 18px
 }
 
 .pic .picList .picListL {
@@ -443,7 +444,8 @@ font-size: 14px;
 }
 
 .pic .picList .picListR .picListRT .pic_right p {
-    font-size: 18px
+    font-size: 18px;
+    color:#333333
 }
 
 .pic .picList .picListR .picListRT .pic_right p:nth-child(1) {
@@ -456,13 +458,13 @@ font-size: 14px;
 
 .pic .picList .picListR .picListRT .pic_right .pic_foot p:nth-child(1) {
     display: block;
-    padding-left: 20px;
+    padding-left: 25px;
     background: url(../images/Ia.png) no-repeat;
 }
 
 .pic .picList .picListR .picListRT .pic_right .pic_foot p:nth-child(2) {
     display: block;
-    padding-left: 20px;
+    padding-left: 25px;
     background: url(../images/Ia.png) no-repeat;
     background-position-y: -32px
 }
@@ -580,8 +582,8 @@ font-size: 14px}
 
 
 .foot .footT .footTR .footTRD2 .footTRD2F {
-
-    text-align: right
+    text-align: right;
+    line-height: 25px;
 }
 
 .foot div {
@@ -603,7 +605,7 @@ font-size: 14px}
 
 .foot .footT .footTR .footTRD2 .footTRD2F .footTRD2Fu .footTRD2Fut {
     position: relative;
-    top: -14px;
+    top: -25px;
     width: 65px
 }
 
@@ -622,7 +624,7 @@ font-size: 14px}
 .foot .footT .footTR .footTRD2 .footTRD2F .footTRD2Fm {
     height: 20px;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 20px
 }
 
@@ -821,8 +823,8 @@ font-size: 14px}
     height: 199px;;;
 }
 .wh187{
-    width: 187px;
-    height: 187px;;
+    width: 189px;
+    height: 189px;;
 }
 
 .font_32{
@@ -862,17 +864,17 @@ font-size: 14px}
     padding:0 20px;
     height: 40px;
 }
-
-.center .lc .lcF .lcFD .lcFDn span {
-    font-size: 29px
+.colorf56{
+    color: #f56478;
 }
-
-.center .lc .lcF .lcFD .lcFDn span:nth-child(1) {
-    color: #f56478
-}
-
-.center .lc .lcF .lcFD .lcFDn span:nth-child(2) {
+.colorf5c{
     color: #f5c25a
+}
+.center .lc .lcF .lcFD .lcFDn span {
+    font-size: 30px
+}
+.center .lc .lcF .lcFD .lcFDn span span{
+    font-size: 20px;
 }
 
 .center .lc .lcF .lcFD .lcFDn span:nth-child(3) {
@@ -946,56 +948,17 @@ font-size: 14px}
     margin: 0 auto;
     width: 225px;
     height: 62px;
-    border: 1px solid #cdf0f5
+
 }
 
-.zr .lcF .lcFDC .lcFDCO .lcFDCI {
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 215px;
-    height: 50px;
-    background: #6ed3d6
-}
 
-.zr.lcF .lcFDC .lcFDCO .lcFDOD {
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    width: 100%;
-    height: 100%
+.font_32_line{
+    font-size: 32px;
 }
-
-.zr .lcF .lcFDC .lcFDCO .lcFDOD span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #cdf0f5
+.font_14_20{
+    font-size: 14px;
+    line-height: 20px;
 }
-
-.zr .lcF .lcFDC .lcFDCO .lcFDCI div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0 auto;
-    width: 100%;
-    height: 49px
-}
-
-.zr .lcF .lcFDC .lcFDCO .lcFDCI div p {
-    color: #fff;
-    text-align: center
-}
-
-.zr .lcF .lcFDC .lcFDCO .lcFDCI div p:nth-child(1) {
-    display: block;
-    font-size: 16px;
-    line-height: 50px
-}
-
 .center .zr .lcFD .lcFDF {
     position: absolute;
     left: -1px;
@@ -1043,7 +1006,7 @@ font-size: 14px}
 }
 
 .sing {
-    padding-top: 135px;
+    padding-top: 50px;
     width: 100%;
     height: 546px
 }
@@ -1088,10 +1051,12 @@ font-size: 14px}
 }
 
 .sing .singIn .singInR .singInR1 .singInRL {
+    position: relative;
+    top: 2px;
     width: 135px;
     text-align: right;
-    position: relative;
-    top: 2px;;
+    font-size: 18px;
+    color: #333333;;
 }
 
 .sing .singIn .singInR .singInR1 .singInRR {
@@ -1102,12 +1067,13 @@ font-size: 14px}
 }
 
 .sing .singIn .singInR .singInR1 .singInRR input {
+    padding-left: 10px;
     position: relative;
     top: 3px;
-    padding-left: 10px;
     width: 250px;
     height: 35px;
-    border: none
+    border: none;
+    font-size: 18px;
 }
 
 .sing .singIn .singInR .singInR1 .singInRR #sing3 {
@@ -1746,11 +1712,11 @@ border: 2px solid #ccc !important;
 }
 
 .lcFDQ .lcFDCQT span:nth-child(odd), .lcFDQ .lcFDQF span:nth-child(odd) {
-    font-size: 35px
+    font-size: 32px
 }
 .lcFDQ .lcFDCQT span:nth-child(even),.lcFDQ .lcFDQF span:nth-child(even) {
 
-    font-size: 21px
+    font-size: 20px
 }
 .lcFDQ .lcFDCQT div:nth-child(1) {
     color: #f56478;
@@ -1765,7 +1731,7 @@ input {
     outline: 0 !important
 }
 
-#sing5 span {
+.spanImg_seco {
     position: relative;
     top: 8px;
     display: inline-block;
@@ -1777,7 +1743,7 @@ input {
     border-radius: 50%
 }
 
-.singIn #sing5 span img {
+.spanImg_seco img {
     display: none
 }
 
@@ -1790,7 +1756,9 @@ input {
 .bank_meg .bank_msg {
     height: 35px;
     text-align: left;
-    line-height: 35px
+    line-height: 35px;
+    font-size: 14px;
+    color: #333;
 }
 
 .bank_meg .bank_list {
@@ -1854,7 +1822,8 @@ input {
 }
 
 .absYesBuy div {
-    text-align: left
+    text-align: left;
+    font-size: 14px;
 }
 
 .absYesBuy div span {
@@ -1890,7 +1859,7 @@ input {
     background: #ffbdce;
     color: #fff;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 35px
 }
 
@@ -1913,8 +1882,9 @@ input {
 
 .posMoneyFoot .posMoneyFootA .posMoneyJJ div div:nth-child(1) {
     height: 45px;
-    font-size: 20px;
-    line-height: 45px
+    font-size: 18px;
+    line-height: 45px;
+    color: #333;
 }
 
 .posMoneyFoot .posMoneyFootA .posMoneyJJ div div:nth-child(2) ul {
@@ -1925,7 +1895,8 @@ input {
     float: left;
     overflow: hidden;
     width: 345px;
-    color: #999
+    font-size: 14px;
+    color: #666;
 }
 
 .posMoneyFoot .posMoneyFootA .posMoneyJJ div div:nth-child(2) ul li span {
@@ -1948,7 +1919,9 @@ input {
 
 .posMoneyFoot .posMoneyFootA .posMoneyJJ div div p {
     width: 865px;
-    line-height: 25px
+    line-height: 25px;
+    font-size: 14px;
+    color: #666;
 }
 
 .posMoneyFoot .posMoneyFootA .posMoneyTT {
@@ -1973,7 +1946,8 @@ input {
 .posMoneyFoot .posMoneyFootA .posMoneyTT .posMoneyTouZiA {
     padding: 0 66px;
     height: 515px;
-    line-height: 50px
+    line-height: 50px;
+    font-size: 14px;
 }
 
 .posMoneyFoot .posMoneyFootA .posMoneyTT div ul {
@@ -1983,7 +1957,8 @@ input {
 
 .posMoneyFoot .posMoneyFootA .posMoneyTT div ul li {
     float: left;
-    width: 322px
+    width: 322px;
+    color: #333;
 }
 
 .posMoneyFoot .posMoneyFootA .posMoneyTT .posMoneyTouZi div ul li:nth-child(2) {
@@ -1993,7 +1968,9 @@ input {
 
 .absMoney .absMoneyTop {
     margin: 0 auto;
-    width: 1100px
+    width: 1100px;
+    margin-top: 30px;
+    background: #FFFFFF;
 }
 
 .posMoneyTopT {
@@ -2006,7 +1983,8 @@ input {
 
 .posMoneyTopT div:nth-child(1) {
     float: left;
-    font-size: 23px
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .posMoneyTopT div:nth-child(2) {
@@ -2045,7 +2023,7 @@ input {
 .absMoney .absTop .absTopA .absTopB {
     height: 70px;
     color: #666;
-    font-size: 10px;
+    font-size: 14px;
     line-height: 40px
 }
 
@@ -2107,7 +2085,8 @@ input {
 }
 
 .absFoot .absFootA div:nth-child(1) {
-    width: 70px
+    width: 70px;
+    color: #333333;
 }
 
 .absMoneyFootRight .absFootB {
@@ -2118,16 +2097,17 @@ input {
 .absMoneyFootRight .absFootC {
     float: left;
     overflow: hidden;
-    width: 120px;
+    width: 116px;
     background: #6ed3d6;
     color: #fff;
     text-align: center;
-    line-height: 40px
+    line-height: 32px;
+    height: 34px;;
 }
 
 .absMoneyFootRight .absFootC div {
     float: left;
-    height: 40px
+
 }
 
 .absMoneyFootRight .absFootC div:nth-child(1), .absMoneyFootRight .absFootC div:nth-child(3) {
@@ -2138,7 +2118,8 @@ input {
 
 .absMoneyFootRight .absFootC input {
     width: 75px;
-    height: 33px
+    height: 30px;
+    border:none;
 }
 
 .absMoneyFootRight .absFootD {
@@ -2157,7 +2138,7 @@ input {
 }
 
 .absMoneyFootRight .absFootA div span:nth-child(1), .absMoneyFootRight .absNoBay div span:nth-child(1) {
-    font-size: 22px
+    font-size: 24px
 }
 
 .absMoneyFootRight .absNoBay {
@@ -2194,14 +2175,17 @@ input {
  .absTopH .absTopHa {
     float: right;
      line-height: 20px;
+     color: #666;
 }
 
  .absTopH div p {
-    color: #000
+    color: #666;
+     font-size: 14px;
 }
 
  .absTopH div p span {
-    color: #666
+     font-size: 16px;
+    color: #333
 }
 
  .absTopH .absTopHa span {
@@ -2271,7 +2255,8 @@ input {
 .posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA1 div:nth-child(1), .posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA2 div:nth-child(1) {
     height: 85px;
     font-size: 14px;
-    line-height: 85px
+    line-height: 85px;
+    color: #666;
 }
 
 .posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA1 div:nth-child(2), .posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA2 div:nth-child(2) {
@@ -2298,8 +2283,8 @@ input {
     position: relative;
     top: 35px;
     overflow: hidden;
-    width: 102px;
-    height: 102px;
+    width: 104px;
+    height: 104px;
     border-radius: 50%
 }
 
@@ -2314,8 +2299,9 @@ input {
 
 .posMoney .posMoneyTopF .posMoneyTopB .posMoneyTopLB, .posMoney .posMoneyTopF .posMoneyTopB .posMoneyTopLC {
     float: left;
-
     margin:20px 0;
+    font-size: 14px;
+    color: #666;
 }
 
 .posMoney .posMoneyTopF .posMoneyTopB .posMoneyTopLC {
@@ -2337,7 +2323,9 @@ input {
 .posMoney .posMoneyTopF .posMoneyTopR .posMoneyTopRA div:nth-child(2) {
     line-height: 35px
 }
-
+.font_42{
+    font-size: 42px;
+}
 
 
 
@@ -2355,12 +2343,14 @@ input {
 
 .posMoney .posMoneyTop .posMoneyTopT {
     padding: 0 40px;
-    border-bottom: 1px dashed #CCC
+    border-bottom: 1px dashed #CCC;
+
 }
 
 .posMoney .posMoneyTop .posMoneyTopT div:nth-child(2) {
     float: right;
-    color: #f77f96
+    color: #f77f96;
+    font-size: 14px;
 }
 
 
@@ -2520,19 +2510,7 @@ input:focus {
     display: block
 }
 
-.password .passwordFootDown {
-    margin: 0 auto;
-    margin-top: 80px;
-    width: 290px;
-    height: 40px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    background: #f4b942;
-    color: #fff;
-    text-align: center;
-    line-height: 40px
-}
+
 
 .password #trueI, .password #worUesr {
     position: absolute;
@@ -2591,12 +2569,14 @@ input:focus {
     padding-left: 20px;
     width: 160px;
     height: 34px;
-    border: none
+    border: none;
+    color: #666666;
 }
 
 .posMoneyTopRA .absFootD {
     margin: 10px 0 15px 0;
-    font-size: 14px
+    font-size: 14px;
+    color: #333;
 }
 
 .posMoneyTopRA .absFootE {
@@ -2606,7 +2586,7 @@ input:focus {
     background: #f77f96;
     color: #fff;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 35px
 }
 
@@ -2912,7 +2892,9 @@ input:focus {
     border-radius: 5px;
     color: #fff;
     text-align: center;
-    line-height: 40px
+    line-height: 40px;
+    font-size: 18px;
+    cursor: pointer;
 }
 
 .oriBtn {
@@ -2987,7 +2969,9 @@ input:focus {
 .bgNum {
     background: #6ED3D6
 }
-
+.navNm{
+    color:#5FCDD0 !important;
+}
 .colorNum {
     color: #6ED3D6
 }
@@ -3004,7 +2988,9 @@ input:focus {
     color: #6CF;
     text-decoration: none
 }
-
+.mar_top80{
+    margin-top: 80px;
+}
 .jyA {
     color: #390
 }
@@ -3185,7 +3171,9 @@ b:hover img {
 .my_account06center {
     margin-top: 20px;
     height: 40px;
-    line-height: 40px
+    line-height: 40px;
+    color: #666;
+    font-size: 14px;
 }
 
 .bgwhite {
@@ -3216,7 +3204,9 @@ b:hover img {
 .chickbox {
     overflow: hidden;
     height: 65px;
-    line-height: 65px
+    line-height: 65px;
+    font-size: 14px;
+    color: #666;
 }
 
 .chickbox div {
@@ -3235,7 +3225,8 @@ b:hover img {
     height: 14px;
     border: 1px solid #EEE;
     border-radius: 4px;
-    line-height: 14px
+    line-height: 14px;
+    margin-right: 10px;
 }
 
 .deletebtn {
@@ -3261,7 +3252,9 @@ b:hover img {
 }
 
 .account_masgerList {
-    margin-bottom: 18px
+    margin-bottom: 18px;
+    font-size: 14px;
+    color: #666;
 }
 
 .account_masgerListTop {
@@ -3272,13 +3265,13 @@ b:hover img {
 }
 
 .account_masgerListFoot {
-    padding: 10px 50px;
+    padding: 10px 25px 10px 50px;
     background: #FFF
 }
 
 .account_masgerListFoot div {
     height: 20px;
-    line-height: 20px
+    line-height: 20px;
 }
 
 .fyList {
@@ -3343,7 +3336,8 @@ b:hover img {
     height: 40px;
     background: #FFF;
     text-align: center;
-    line-height: 40px
+    line-height: 40px;
+    font-size: 14px;
 }
 
 .ulLeft_list ul li:last-child {
@@ -3464,11 +3458,13 @@ d {
 
 .my_account00_center .left div {
     height: 40px;
-    line-height: 40px
+    line-height: 40px;
+    color: #666;
 }
 
 .my_account00_center span {
-    display: inline-block
+    display: inline-block;
+
 }
 
 .span160px {
@@ -3492,9 +3488,12 @@ d {
 }
 
 .scrio input {
-    width: 257px;
-    height: 35px;
-    border: none
+    padding-left: 15px;;
+    width: 242px;
+    height: 36px;
+    border: none;
+    line-height: 36px;
+    font-size: 18px;
 }
 
 .margin_buttom20 {
@@ -3502,11 +3501,13 @@ d {
 }
 
 .my_account00_foot {
-    margin: 30px 0 50px 0
+    margin: 30px 0 50px 0;
+    color: #666;
 }
 
 .my_account00_foot p {
-    line-height: 25px
+    line-height: 25px;
+    font-size: 14px;
 }
 
 .font_20 {
@@ -3544,7 +3545,7 @@ d {
 .cardbank div {
     position: relative;
     margin-bottom: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
     width: 330px;
     height: 40px;
     border: 1px solid #CCC;
@@ -3579,7 +3580,8 @@ d {
 .cardbank input {
     width: 324px;
     height: 40px;
-    border: none
+    border: none;
+    font-size: 18px;
 }
 
 .sellMoreTop {
@@ -3605,11 +3607,15 @@ d {
 }
 
 .zrxq_center {
-    margin-bottom: 24px;
     height: 112px;
-    border-bottom: 1px solid #EEE
-}
 
+}
+.border_t1{
+    border-top:1px solid #EEEEEE;
+}
+.padding_t25{
+    padding-top: 25px;
+}
 .zrxq_center ul li {
     float: left;
     text-align: left
@@ -3618,8 +3624,11 @@ d {
 .zrxq_center .zrxq_center_top {
     height: 40px;
     color: #666;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 40px
+}
+.font_36{
+    font-size: 36px;
 }
 
 .zrxq_center .zrxq_center_footer {
@@ -3709,6 +3718,7 @@ d {
     width: 50%;
     background: #f9f9f9;
     text-align: center;
+    font-size: 14px;
 
 }
 .inline_list li.bgOrange{
@@ -3722,7 +3732,10 @@ d {
     text-align: center;
     line-height: 20px
 }
-
+.ulLeft_list ul li div:last-child{
+    font-size: 13px;
+    color: #666;
+}
 .ulLeft_list ul li div.deco {
     color: #f77f96;
     text-align: center;
@@ -3784,6 +3797,9 @@ d {
     height: 37px;
     line-height: 37px
 }
+.font_weight{
+    font-weight: bold;
+}
 
 .height56 {
     height: 56px;
@@ -3804,7 +3820,9 @@ d {
 .qiandao div {
     height: 74px;
     text-align: left;
-    line-height: 100px
+    line-height: 100px;
+    color: #666666;
+    font-size: 14px;
 }
 
 
@@ -3845,7 +3863,8 @@ d {
     height: 64px;
     background: #FFF;
     text-align: center;
-    line-height: 64px
+    line-height: 64px;
+    font-weight: 600;
 }
 
 .dayList ul li {
@@ -3873,7 +3892,8 @@ d {
 }
 
 .dayList ul li div:nth-child(2) {
-    color: #f77f96
+    color: #f77f96;
+    font-size: 18px;
 }
 
 .dayList ul li:nth-child(1) {
@@ -4042,7 +4062,8 @@ span.account_renzhengNo {
 .aboutUList ul li {
     float: left;
     width: 360px;
-    height: 350px
+    height: 350px;
+    background: #FFFFFF;
 }
 
 .aboutUList ul li:nth-child(2) {
@@ -4074,7 +4095,7 @@ span.account_renzhengNo {
     padding: 5px 20px 20px 20px;
     height: 92px;
     line-height: 22px;
-
+    color: #666;
 }
 
 .aboutUList ul li div:nth-child(4) p {
@@ -4126,13 +4147,16 @@ font-size: 14px;
 .company-item .headline {
     margin-bottom: 10px;
     padding-left: 340px;
-    font-weight: 500;
-    font-size: 24px
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
 }
 
 .company-item .referral {
     padding-left: 340px;
-    line-height: 160%
+    line-height: 160%;
+    color: #666;
+    font-weight: bold;
 }
 
 .company-item .lit-img img {
@@ -4151,7 +4175,7 @@ font-size: 14px;
     padding: 50px 0 20px 0;
     width: 1100px;
     color: #60c0b9;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 30px
 }
 
@@ -4351,7 +4375,9 @@ font-size: 14px;
     position: relative;
     margin: 0 auto;
     padding: 25px 30px 25px 14px;
-    width: 1056px
+    width: 1056px;
+    background: #fff;
+    margin-top: 40px;
 }
 
 .about_news .about_news_date {
@@ -4428,14 +4454,15 @@ font-size: 14px;
     border: 1px solid #eee
 }
 
-.my_Account .my_accountLeft a {
+.my_Account .my_accountLeft div {
     display: block;
     width: 162px;
     height: 43px;
-    color: #000;
+    color: #666;
     text-align: center;
     line-height: 43px;
     font-size: 14px;
+    font-weight: 600;
 }
 
 .my_Account .my_accountLeft div {
@@ -4446,7 +4473,7 @@ font-size: 14px;
     background: #f77f96;
     color: #fff
 }
-.my_Account .my_accountLeft div.bg a{
+.my_Account .my_accountLeft div.bg {
     color: #FFFFFF !important;
 }
 .my_Account .my_accountLeft div:last-child {
@@ -4480,7 +4507,9 @@ font-size: 14px;
 
 .my_account1TopC1 {
     text-align: left;
-    font-size: 18px
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
 }
 
 .my_account1TopC2 {
@@ -4492,6 +4521,7 @@ font-size: 14px;
 .my_account1TopC2 div {
     float: left;
     color: #666;
+    font-size: 14px;
 }
 
 .my_account1TopC2 div img {
@@ -4518,7 +4548,8 @@ font-size: 14px;
     background: #f4b942;
     color: #fff;
     text-align: center;
-    line-height: 30px
+    line-height: 30px;
+    font-size: 14px;
 }
 
 .noqd {
@@ -4553,15 +4584,16 @@ font-size: 14px;
 
 .my_account1TopH {
     height: 60px;
-    color: #000;
+    color: #333;
     font-size: 30px;
     line-height: 80px
 }
 
 .my_account1TopI {
     height: 40px;
-    color: #999;
-    line-height: 20px
+    color: #666;
+    line-height: 20px;
+    font-size: 14px;
 }
 
 .my_account1TopF {
@@ -4578,7 +4610,8 @@ font-size: 14px;
     border-radius: 5px;
     color: #fff;
     text-align: center;
-    line-height: 30px
+    line-height: 30px;
+    font-size: 14px;
 }
 
 .my_account1TopF div:nth-child(1) {
@@ -4604,21 +4637,22 @@ font-size: 14px;
 
 .my_account1TopRL1 {
     float: left;
-    width: 267px;
+    width:250px;
     height: 100%
 }
 
 .my_account1TopRL1 .my_account1TopX {
     height: 29px;
-    color: #999;
-    line-height: 29px
+    color: #333;
+    line-height: 29px;
+    font-size: 14px;
 }
 
 .my_account1TopY {
     width: 100%;
     height: 40px;
     color: #f77f96;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 45px
 }
 
@@ -4631,24 +4665,27 @@ font-size: 14px;
 }
 
 .my_account1Top .my_account1TopZ .my_account1Z1 {
-    color: #999
+    text-align: right;
+    color: #333;
+    font-size: 14px;
 }
 
 .my_account1Top .my_account1TopZ .my_account1Z1 a {
-    color: #fbbfcb;
+    color: #f77f96;
     text-decoration: underline;
-    font-size: 10px
+    font-size: 13px
 }
 
 .my_account1Top .my_account1TopZ .my_account1Z2 {
     height: 57px;
     color: #f4b942;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 45px
 }
 
 .my_account1Top .my_account1TopR {
     overflow: hidden;
+
     width: 460px;
     height: 40px
 }
@@ -4656,13 +4693,17 @@ font-size: 14px;
 .my_account1Top .my_account1TopR .my_account1TopRA {
     float: left;
     height: 40px;
-    line-height: 40px
+    line-height: 40px;
+    font-size: 14px;
+    color: #333333;
 }
 
 .my_account1Top .my_account1TopR .my_account1TopRB {
     float: right;
     height: 40px;
-    line-height: 40px
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
 }
 
 .my_account1Top .my_account1TopRB span {
@@ -4682,13 +4723,14 @@ font-size: 14px;
 
 .my_account1FooterNav {
     width: 100%;
-    height: 38px;
-    color: #999;
-    line-height: 38px
+    height: 65px;
+    color: #333;
+    line-height: 90px
 }
 
 .my_account1FooterNav a {
-    color: #666
+    color: #999;
+    font-size: 14px;
 }
 
 .my_account1FooterCenter {
@@ -4722,19 +4764,23 @@ font-size: 14px;
     width: 147px;
     height: 40px;
     background: #FFF;
-    line-height: 40px
+    line-height: 40px;
+    font-size: 14px;
 }
 
 .my_account1FooterCenter ul li:first-child {
-    margin-left: 0
+    margin-left: 0;
+    color: #666;
 }
 
 .my_account1FooterFoot ul li:nth-child(2) {
-    text-align: left
+    text-align: left;
+    color: #333;
 }
 
 .my_account1FooterFoot ul li:last-child {
-    text-align: left
+    text-align: left;
+    color: #666;
 }
 
 .my_account1FooterFoot ul li:nth-child(3) {
@@ -4742,7 +4788,8 @@ font-size: 14px;
 }
 
 .my_account1FooterFoot ul li:nth-child(4) {
-    text-align: right
+    text-align: right;
+    color: #000;
 }
 
 .my_account1FooterCenter ul li.numColorRed {
@@ -4784,41 +4831,28 @@ font-size: 14px;
 .my_account .abs_account .true_qd div span {
     font-size: 22px
 }
-
 .my_account .abs_account .true_qd div:nth-child(2) {
     position: absolute;
     top: 236px;
     left: 0;
     width: 100%
 }
-
 .banCard {
-    width: 100%
+    width: 100%;
 }
-
 .banCard .banOuter {
     overflow: hidden;
     margin: 0 auto;
-    width: 100%
+    width: 100%;
+
 }
-
-
-
 .navColor {
-    color: #FFE46C !important
+    color: #fee473 !important
 }
-
-
-
-
-
 
 .sign_on .sign_in .sign_foot {
     padding: 17px 34px
 }
-
-
-
 .sign_in_down {
     overflow: hidden;
     height: 40px;
@@ -4826,11 +4860,11 @@ font-size: 14px;
 }
 
 .sign_in_down div {
-    float: left
+    float: left;
 }
 
 .sign_in_down div:nth-child(2) {
-    float: right
+    float: right;
 }
 
 .sign_in .sign_foot .sign_footA .sign_footD {
@@ -4838,30 +4872,30 @@ font-size: 14px;
     border: 1px solid #CCC;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .sign_on .sign_in .sign_foot .sign_footA .sign_footD input {
     margin: 0 auto;
     width: 300px;
     height: 40px;
-    border: none
+    border: none;
 }
 
 input:focus {
-    outline: 0
+    outline: 0;
 }
 
 .sign_in .sign_foot .sign_footA .sign_footD input {
-    float: right
+    float: right;
 }
 
 .sign_in .sign_foot .sign_footE {
-    overflow: hidden
+    overflow: hidden;
 }
 
 .sign_in .sign_foot .sign_footE .sign_footA, .sign_in .sign_foot .sign_footE .sign_footF {
-    float: left
+    float: left;
 }
 
 .sign_in .sign_foot .sign_footE .sign_footA .sign_footB {
@@ -4878,7 +4912,7 @@ input:focus {
     margin: 0 auto;
     width: 235px;
     height: 40px;
-    border: none
+    border: none;
 }
 
 .sign_in .sign_foot .sign_footE .sign_footF {
@@ -4894,18 +4928,18 @@ input:focus {
 }
 
 .sign_phone {
-    background: url(../images/sign_n.jpg) no-repeat
+    background: url(../images/sign_n.jpg) no-repeat;
 }
 
 .sign_pass {
-    background: url(../images/sign_o.png) no-repeat
+    background: url(../images/sign_o.png) no-repeat;
 }
 
 .trueName {
     position: fixed;
     top: 0;
     left: 0;
-    display: none;
+    /*display: none;*/
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, .3)
@@ -4959,6 +4993,7 @@ input:focus {
     padding: 0 2px;
     width: 256px;
     height: 37px;
+    line-height: 37px;
     border: 1px solid #CCC;
     border-radius: 5px
 }
@@ -4966,7 +5001,8 @@ input:focus {
 .trueNameA div:nth-child(2) input {
     width: 256px;
     height: 33px;
-    border: none
+    border: none;
+    font-size: 16px;
 }
 
 input:focus {
@@ -5011,10 +5047,7 @@ input:focus {
     background: #f4b942
 }
 
-.password .passwordFoot {
-    margin-top: 70px;
-    color: #fff
-}
+
 
 .password .passwordFoot span {
     color: #F77F96
@@ -5055,6 +5088,7 @@ input:focus {
     text-align: right;
     line-height: 42px;
     color: #333;
+    font-size: 18px;
 }
 
 .password .passwordFoot .passwordFootA .passwordFootC {
@@ -5073,7 +5107,7 @@ input:focus {
 .password .passwordFoot .passwordFootA .passwordFootD input {
     width: 240px;
     height: 40px;
-    background: 0 0;
+    font-size: 18px;
 
 }
 
@@ -5089,7 +5123,7 @@ input:focus {
 .password .passwordFoot .passwordFootA .passwordFootE input {
     width: 140px;
     height: 40px;
-    background: 0 0
+    font-size: 18px;
 }
 
 .password .passwordFoot .passwordFootA .passwordFootF {
@@ -5118,20 +5152,7 @@ input:focus {
     display: block
 }
 
-.password .passwordFootDown {
-    margin: 0 auto;
-    margin-top: 80px;
-    width: 290px;
-    height: 40px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    background: #f4b942;
-    color: #fff;
-    text-align: center;
-    line-height: 40px;
-    cursor: pointer
-}
+
 
 .password #trueI, .password #worUesr {
     position: absolute;
@@ -5294,7 +5315,7 @@ input:focus {
 .registerOk img{
     display: block;
     margin:0 auto;
-    margin-top: 126px;
+    margin-top: 150px;
 }
 .height75{
     height: 75px;
@@ -5308,20 +5329,20 @@ input:focus {
     line-height: 260px;;;
 }
 .payMoney {
-    width: 1100px;
+
     margin: 0 auto;
     background: #f9f9f9
 }
-
+.padding_lr105{
+    padding:0 105px;
+}
 .payMoneyT, .payMoneyF {
-    padding: 0 105px;
-    width: 885px;
-    margin: 0 auto;
+    width: 875px;
     background: white;
 }
 
 .payMoneyT {
-    margin: 30px 0 20PX 0;
+    margin: 30px auto 20px;
     height: 100px;
     text-align: center;
     line-height: 55px;
@@ -5329,13 +5350,15 @@ input:focus {
 }
 
 .payMoneyT p:nth-child(1) {
-
-    height: 40px;;
+    height: 40px;
+    font-size: 20px;
+    color: #333;
 }
 
 .payMoneyT p:nth-child(2) {
     height: 60px;
-    color: #999999;;
+    color: #666;
+    font-size: 18px;
 }
 
 .payMoneyFFoot {
@@ -5372,19 +5395,20 @@ input:focus {
 }
 
 .payMoney .payMoneyFTop .payMoneyFTopA span {
-    color: #000;
-    font-size: 16px;
+    color: #333;
+    font-size: 22px;
 }
 
 .payMoney .payMoneyFTop .payMoneyFTopB {
     height: 70px;
     text-align: right;
     line-height: 100px;
+    color: #333;
 }
 
 .payMoney .payMoneyFTop .payMoneyFTopB span {
     color: #F77F96;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .payMoneyF .payMoneyFFoot {
@@ -5409,13 +5433,18 @@ input:focus {
     height: 22px;
 
 }
-
+.color6ed{
+    color: #6ed3d6;
+}
+.f600{
+    font-weight: 600;
+}
 .payMoney .payMoneyFFootB div {
     text-align: center;
     width: 290px;
     height: 40px;
     line-height: 40px;
-    font-size: 20px;;
+    font-size: 16px;;
     background: #F77F96;
     border-radius: 5px;
     color: white;;
@@ -5427,9 +5456,9 @@ input:focus {
 
 .payMoney .payMoneyF .bankCard ul li {
     position: relative;
-    margin-right: 27px;
+    margin-right: 25px;
     float: left;
-    width: 201px;
+    width: 200px;
     height: 60px;
     background: url("../images/bankK.png") no-repeat;
     background-position: 5px;;;
@@ -5463,6 +5492,9 @@ input:focus {
 .payMoney .payMoneyF .bankCard ul li.bgImg{
     background: url("../images/bgBankImg.png") no-repeat;
     background-position-y: 5px;
+}
+.line-height60{
+    line-height: 60px;
 }
 /*安全保障*/
 .safeNum {
@@ -5561,11 +5593,9 @@ input:focus {
     overflow: hidden;
 
 }
-.border_y_green{
-    border: 1px solid #CDF0F5;
-}
+
 .border_y_grey{
-    border:1px solid #eee;
+    border:2px solid #eee;
 }
 .bfb_yuan div {
     position: absolute;
@@ -5585,14 +5615,10 @@ input:focus {
 
 .bfb_yuan div:nth-child(3) {
     position: absolute;
-    top: 6px;
-    left: 6px;
     border-radius: 50%;
 
 }
-.bg_6ed{
-    background: #6ed3d6;
-}
+
 .bfb_yuan div:nth-child(4) {
 
     width: 100%;
@@ -5600,7 +5626,6 @@ input:focus {
 }
 
 .bfb_yuan div:nth-child(5) {
-
     width: 100%;
     height: 100%;
     color: #fff;
@@ -5610,15 +5635,27 @@ input:focus {
 }
 
 .bfb_yuan .height_yuan {
-    height: 50%
+
 }
 .wh100{
     width: 100px;
     height: 100px;;;;
 }
+.wh104{
+    width: 104px;
+    height: 104px;;;
+}
 .wh88{
     width: 88px;
     height: 88px;;;;
+}
+.wh96{
+    width: 96px;
+    height: 96px;;;
+}
+.wh92{
+    width: 92px;
+    height: 92px;;;
 }
 .line-height100{
     line-height: 100px;
@@ -5636,6 +5673,105 @@ input:focus {
     height: 21px;;;
 }
 .time_fast{
+}
+/*方形进度条*/
+.bfb_fang {
+    position: relative;
+    overflow: hidden;
+}
+
+.bfb_fang div {
+    position: absolute;
+}
+
+.bfb_fang div:nth-child(1) {
+    width: 100%;
+    height: 100%;
+
+}
+
+.bg_cdf {
+    background: #CDF0F4;
+}
+
+.bfb_fang div:nth-child(2) {
+    height: 100%;
+
+}
+
+.bfb_fang div:nth-child(3) {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    overflow: hidden;
+}
+
+.bfb_fang div:nth-child(4) {
+    height: 100%;
+
+}
+
+.bfb_fang div:nth-child(5) {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+}
+.bfb_fang div:last-child {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 58px;
+    font-size: 18px;
+    color: #fff;
+}
+.bfb_fang span {
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+
+}
+
+.bfb_fang span span {
+    top: 0;
+    left: 0;
+
+    height: 100%;
+}
+
+.bg_6dd {
+    background: #6ddcd7;;
+}
+
+.fang_212 {
+    width: 212px;
+    height: 50px;;;
+}
+
+.fang_222 {
+    width: 222px;
+    height: 58px;
+
+}
+
+.height145{
+    height: 145px;
+line-height: 75px;
+}
+.bg_6ed{
+    background: #6ED3D6;
+}
+.tl5{
+    top: 5px;
+    left: 5px;;;
+}
+.tl4 {
+    top: 4px;
+    left: 4px;
+}
+.font_22{
+    font-size: 22px;
 }
 
 

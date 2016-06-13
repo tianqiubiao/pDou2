@@ -63,9 +63,9 @@
 
 <div class="posMoney">
     <!--头部固定-->
-    <div class="posMoneyTop">
+    <div class="posMoneyTop" style="background: #fff;margin-top: 30px;">
         <div class="posMoneyTopT">
-            <div>定宝-10056</div>
+            <div class="left font_20 font_weight">定宝-10056</div>
             <div>借款协议（范本）</div>
         </div>
         <div class="posMoneyTopF">
@@ -74,7 +74,9 @@
                 <div class="posMoneyTopA">
                     <div class="posMoneyTopA1">
                         <div>年化收益率</div>
-                        <div><span>10</span><span>%</span><span>+</span><span>2</span><span>%</span></div>
+                        <div><span class="color_pink font_42">10</span><span class="color_pink font_24">%</span><span
+                                class="font_24 yellowNum">+</span><span class="yellowNum font_42">2</span><span
+                                class="font_24 yellowNum">%</span></div>
                     </div>
                     <div class="posMoneyTopA2">
                         <div>期限</div>
@@ -87,12 +89,12 @@
                     </div>
                     <div class="posMoneyTopA4">
                         <div class="posMoneyTopA4m">
-                            <div class="bfb_yuan wh100 border_y_grey">
-                                <div class="bgeee"></div>
-                                <div class=" " style="height: 0%;"></div>
-                                <div class="wh88 bgccc"></div>
-                                <div class=" wh100" style="height: 0%;"></div>
-                                <div class="line-height100 font_25 lightYellowNum">已满标</div>
+                            <div class="bfb_yuan wh100 " style="border: 2px solid rgb(205, 240, 245);">
+                                <div class="bg_cdf yuan_top"></div>
+                                <div class="height_yuan " style="height: 50%;"></div>
+                                <div class="wh92 bg_6ed yuan_center tl4"></div>
+                                <div class="height_yuan wh100" style="height: 50%;"></div>
+                                <div class="line-height100 font_25 bfb_J">还款中</div>
                             </div>
                         </div>
 
@@ -100,12 +102,11 @@
                 </div>
                 <div class="posMoneyTopB">
 
-                    <div class="posMoneyTopLB"><p>还款方式&nbsp;<span>按月付息&nbsp;到期还本</span></p></div>
-                    <div class="posMoneyTopLC"><p>满标时间&nbsp;<span>2016.06.07&nbsp;20:36:56</span></p></div>
+                    <div class="posMoneyTopLB"><p>还款方式&nbsp;<span class="font_16 color3">按月付息&nbsp;到期还本</span></p></div>
+                    <div class="posMoneyTopLC"><p>满标时间&nbsp;<span class="font_16 color3">2016.06.07&nbsp;20:36:56</span></p></div>
 
                 </div>
             </div>
-
             <!--二维码-->
             <div class="posMoneyTopR">
                 <div class="posMoneyTopRA">
@@ -118,12 +119,10 @@
 
     <!--底部选项卡-->
     <div class="posMoneyFoot">
-
         <div class="posMoneyFootTop">
             <div class="posMoneyFootTopBg">项目简介</div>
             <div>投资记录</div>
         </div>
-
         <div class="posMoneyFootA">
             <!--项目简介-->
             <div class="posMoneyJJ" style="display: none">
@@ -314,10 +313,10 @@
             </div>
         </div>
     </div>
-    <div class="sign_on"></div>
+
 </div>
 <!--登录-->
-<div class="sign_on">
+<div class="sign_on" style="display: none">
     <div class="sign_in">
         <div class="sign_top">登录</div>
         <div class="sign_close"></div>
@@ -346,10 +345,11 @@
     </div>
 </div>
 <!--实名认证-->
-<div class="trueName"></div>
+<div class="trueName" style="display: none">
 
-<script src="public/javascripts/jquery.min.js"></script>
-<script src="public/javascripts/sign_in.js"></script>
-<script src="public/javascripts/app.js"></script>
+</div>
+
+<script src="public/js/jquery.min.js"></script>
+<script src="public/js/app.js"></script>
 </body>
 </html>

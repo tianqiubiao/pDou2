@@ -8,25 +8,6 @@
 
 </head>
 <body>
-<div class="top" style="display: none">
-    <div class="topNav">
-        <ul class="topNavLeft">
-            <li class="to">客服电话: &nbsp;<a href="tel:400-859-9090">400-859-9090</a></li>
-            <li class="wx">客服微信 <img src="public/images/weixin.png" alt=""
-                                     class="w"></li>
-        </ul>
-        <ul class="topNavRight">
-            <li class="to1">P兜APP</li>
-            <li class="topNavPad">
-                <ul class="topNavPeople">
-                    <li class="id_zh to2 pointer">注册<span><p>领活动本金</p></span></li>
-                    <li class="sign pointer ">登录</li>
-                </ul>
-            </li>
-            <li class="id_helpIng pointer">帮助中心</li>
-        </ul>
-    </div>
-</div>
 <div class="top" style="">
     <div class="topNav row">
         <ul class="topNavLeft">
@@ -37,40 +18,37 @@
         <ul class="right topNavRight">
             <li class="to1">P兜APP</li>
             <li class="uesr_name">
-                <div><span>&nbsp;</span>&nbsp;<span>我的账户</span>&nbsp;<span>[137****000]</span></div>
+                <div id="account_in"><span>&nbsp;</span>&nbsp;<span>我的账户</span>&nbsp;<span>[137****000]</span></div>
             </li>
-            <li class="afterDis color_pink">
-                消息
-            </li>
+            <li class="afterDis color_pink" data-href="w-wodexiaoxi.html">消息</li>
             <li>退出</li>
-            <li class="id_helpIng pointer"><a href="helpIng.html" class="color6" target="_blank">帮助中心</a></li>
+            <li class="id_helpIng pointer" data-href="helpIng.html" data-target="_blank">帮助中心</li>
         </ul>
     </div>
 </div>
 <!--导航-->
 <div class="second">
-
     <div class="secondTop row">
         <div class="left"><img src="public/images/h1.png" alt="P兜理财"></div>
         <div id="banCard0" class="left">
-            <div class="navColor"><a href="index.html">&nbsp;&nbsp;首页</a></div>
-            <div class=" pointer"><a href="sellMoney.html">定期理财</a></div>
-            <div class=" pointer"><a href="tarenzhuanrang.html">他人转让</a></div>
-            <div class=" pointer"><a href="safe.html">安全保障</a></div>
-            <div class=" pointer"><a href="about_ous.html">关于我们</a></div>
+            <div class=" pointer" data-href="index.html">&nbsp;&nbsp;首页</div>
+            <div class=" pointer" data-href="sellMoney.html">定期理财</div>
+            <div class=" pointer" data-href="tarenzhuanrang.html">他人转让</div>
+            <div class=" pointer" data-href="safe.html">安全保障</div>
+            <div class=" pointer" data-href="about_ous.html">关于我们</div>
         </div>
     </div>
 </div>
 <div class="my_account row">
     <div class="my_Account row">
         <div class="my_accountLeft">
-            <div class="bg"><a href="javascript:;">我的账户</a></div>
-            <div><a href="account-wodetouzi.html">我的投资</a></div>
-            <div><a href="w-wodebenjn.html">活动本金</a></div>
-            <div><a href="w-accountjiaoyijilu.html">交易记录</a></div>
-            <div><a href="w-myfriend.html">邀请好友</a></div>
-            <div ><a href="w-wodexiaoxi.html">我的消息</a></div>
-            <div><a href="account_safe.html">安全中心</a></div>
+            <div class="bg" data-href="w-wodezhnghu.html">我的账户</div>
+            <div data-href="account-wodetouzi.html">我的投资</div>
+            <div data-href="w-wodebenjn.html">活动本金</div>
+            <div data-href="w-accountjiaoyijilu.html">交易记录</div>
+            <div data-href="w-myfriend.html">邀请好友</div>
+            <div data-href="w-wodexiaoxi.html">我的消息</div>
+            <div data-href="account_safe.html">安全中心</div>
         </div>
 
         <div class="my_accountRight ">
@@ -482,6 +460,7 @@
 
 </div>
 <script src="public/js/jquery.min.js"></script>
+<script src="public/js/app.js"></script>
 <script type="text/javascript">
     $('#true_qd').click(function () {
 

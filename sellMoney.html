@@ -7,8 +7,7 @@
 
 </head>
 <body>
-
-<div class="top">
+<div class="top" style="display: none">
     <div class="topNav">
         <ul class="topNavLeft">
             <li class="to">客服电话: &nbsp;<a href="tel:400-859-9090">400-859-9090</a></li>
@@ -19,11 +18,29 @@
             <li class="to1">P兜APP</li>
             <li class="topNavPad">
                 <ul class="topNavPeople">
-                    <li class="id_zh to2 pointer"><a href="register.html" class=" color6">注册<span><p>领活动本金</p></span></a></li>
+                    <li class="id_zh to2 pointer">注册<span><p>领活动本金</p></span></li>
                     <li class="sign pointer ">登录</li>
                 </ul>
             </li>
-            <li class="id_helpIng pointer"><a href="helpIng.html" class="color6" target="_blank">帮助中心</a></li>
+            <li class="id_helpIng pointer">帮助中心</li>
+        </ul>
+    </div>
+</div>
+<div class="top" style="">
+    <div class="topNav row">
+        <ul class="topNavLeft">
+            <li class="to">客服电话: &nbsp;<a href="tel:400-859-9090">400-859-9090</a></li>
+            <li class="wx">客服微信 <img src="public/images/weixin.png" alt=""
+                                     class="w"></li>
+        </ul>
+        <ul class="right topNavRight">
+            <li class="to1">P兜APP</li>
+            <li class="uesr_name">
+                <div id="account_in"><span>&nbsp;</span>&nbsp;<span>我的账户</span>&nbsp;<span>[137****000]</span></div>
+            </li>
+            <li class="afterDis color_pink" data-href="w-wodexiaoxi.html">消息</li>
+            <li>退出</li>
+            <li class="id_helpIng pointer" data-href="helpIng.html" data-target="_blank">帮助中心</li>
         </ul>
     </div>
 </div>
@@ -32,11 +49,11 @@
     <div class="secondTop row">
         <div class="left"><img src="public/images/h1.png" alt="P兜理财"></div>
         <div id="banCard0" class="left">
-            <div class=" pointer"><a href="index.html">&nbsp;&nbsp;首页</a></div>
-            <div class="navColor">定期理财</div>
-            <div class=" pointer"><a href="tarenzhuanrang.html">他人转让</a></div>
-            <div class=" pointer"><a href="safe.html">安全保障</a></div>
-            <div class=" pointer"><a href="about_ous.html">关于我们</a></div>
+            <div class=" pointer" data-href="index.html">&nbsp;&nbsp;首页</div>
+            <div class="navColor" >定期理财</div>
+            <div class=" pointer" data-href="tarenzhuanrang.html">他人转让</div>
+            <div class=" pointer" data-href="safe.html">安全保障</div>
+            <div class=" pointer" data-href="about-team.html">关于我们</div>
         </div>
     </div>
 </div>
@@ -104,9 +121,12 @@
                             <li class="mCLi5 lightGreenNum">
                                 <p><span>250,000.00</span><span>/</span><span>50</span><span>万</span></p>
                             </li>
-                            <li class="mCLi6"><span class="bgGreen"></span><span
-                                    class="bglightGreen"></span><span>100%</span></li>
-                            <li class="mCLi7 bgPink"><p>立即购买</p></li>
+                            <li class="mCLi6 sellHeight">
+                                <span class="bgGreen"></span>
+                                <span class="bglightGreen sellHeight"></span>
+                                <span class="sellHeightNum">100%</span>
+                            </li>
+                            <li class="mCLi7 "><p>立即购买</p></li>
                         </ul>
 
                     </div>
@@ -128,8 +148,11 @@
                             <li class="mCLi5 lightGreenNum">
                                 <p><span>250000</span><span>/</span><span>50</span><span>万</span></p>
                             </li>
-                            <li class="mCLi6"><span class="bgGreen"></span><span
-                                    class="bglightGreen" style="height: 0%;"></span><span>100%</span></li>
+                            <li class="mCLi6">
+                                <span class="bgGreen"></span>
+                                <span class="bglightGreen sellHeight" style="height: 0%;" ></span>
+                                <span class="sellHeightNum">100%</span>
+                            </li>
                             <li class="mCLi7 bgYellow"><p>已满标</p></li>
                         </ul>
 
@@ -151,15 +174,15 @@
                             <li class="mCLi5 lightGreenNum">
                                 <p><span>250000</span><span>/</span><span>50</span><span>万</span></p>
                             </li>
-                            <li class="mCLi6"><span class="bgGreen"></span><span
-                                    class="bglightGreen" style="height: 0%;"></span><span>100%</span></li>
+                            <li class="mCLi6"><span class="bgGreen"></span>
+                                <span class="bglightGreen" style="height: 0%;"></span>
+                                <span class="sellHeightNum">100%</span></li>
                             <li class="mCLi7 bgGrey"><p>还款中</p></li>
                         </ul>
 
                     </div>
                     <div>
                         <ul>
-                            <!--行高=50/p.length+"px"-->
                             <li class="bgGreen mCLi1 line-height25">
                                 <p>中铁物流专项</p>
                                 <p>150613-1期</p>
@@ -177,8 +200,10 @@
                             <li class="mCLi5 lightGreenNum">
                                 <p><span>250000</span><span>/</span><span>50</span><span>万</span></p>
                             </li>
-                            <li class="mCLi6"><span class="bgGrey"></span><span
-                                    class="bgGrey" style="height: 0%;"></span><span>100%</span></li>
+                            <li class="mCLi6">
+                                <span class="bgGreen "></span>
+                                <span class=" sellHeight" style="height: 0%;"></span>
+                                <span class="sellHeightNum">100%</span></li>
                             <li class="mCLi7 bgGrey"><p>已结束</p></li>
                         </ul>
 
@@ -200,9 +225,10 @@
                             <li class="mCLi5 lightGreenNum">
                                 <p><span>250000</span><span>/</span><span>50</span><span>万</span></p>
                             </li>
-                            <li class="mCLi6"><span class="bgGreen"></span><span
-                                    class="bglightGreen"></span><span>100%</span></li>
-                            <li class="mCLi7 bgPink"><p>立即购买</p></li>
+                            <li class="mCLi6"><span class="bgGreen"></span>
+                                <span class="bglightGreen sellHeight"></span>
+                                <span class="sellHeightNum">100%</span></li>
+                            <li class="mCLi7 bgPink"><p>已结束</p></li>
                         </ul>
 
                     </div>

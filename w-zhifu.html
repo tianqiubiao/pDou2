@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="public/css/app.css">
 
-
 </head>
 <body>
+<div class="top" style="display: none">
+    <div class="topNav">
+        <ul class="topNavLeft">
+            <li class="to">客服电话: &nbsp;<a href="tel:400-859-9090">400-859-9090</a></li>
+            <li class="wx">客服微信 <img src="public/images/weixin.png" alt=""
+                                     class="w"></li>
+        </ul>
+        <ul class="topNavRight">
+            <li class="to1">P兜APP</li>
+            <li class="topNavPad">
+                <ul class="topNavPeople">
+                    <li class="id_zh to2 pointer">注册<span><p>领活动本金</p></span></li>
+                    <li class="sign pointer ">登录</li>
+                </ul>
+            </li>
+            <li class="id_helpIng pointer" data-href="helpIng.html" data-target="_blank">帮助中心</li>
+        </ul>
+    </div>
+</div>
 <div class="top" style="">
     <div class="topNav row">
         <ul class="topNavLeft">
@@ -39,67 +57,39 @@
         </div>
     </div>
 </div>
-<div class="my_account">
-    <div class="my_Account row">
-        <div class="my_accountLeft">
-            <div class="bg" data-href="w-wodezhnghu.html">我的账户</div>
-            <div data-href="account-wodetouzi.html">我的投资</div>
-            <div data-href="w-wodebenjn.html">活动本金</div>
-            <div data-href="w-accountjiaoyijilu.html">交易记录</div>
-            <div data-href="w-myfriend.html">邀请好友</div>
-            <div data-href="w-wodexiaoxi.html">我的消息</div>
-            <div data-href="account_safe.html">安全中心</div>
-        </div>
-        <div class="my_accountRight">
-            <!--我的账户-->
-            <div class="my_accountBandcard" id="my_accountBandcard">
-                <div class="my_accountbandTop">
-                    <div class="topmasger"><span></span>&nbsp; 绑定银行卡
-                        <div class="font_14 yellowNum inline f600">必须使用开户信息与实名认证信息一致的银行卡</div>
-                    </div>
-                </div>
-                <div class="row width470 marauto mar1020">
-                    <div class="left text-right line-height40 width100"><span class="redNum">*</span>持卡人:</div>
-                    <div class="left text-left line-height40">王二小( <span>0023</span> )</div>
-                </div>
-                <div class="row marauto width470 margin_buttom20">
-                    <div class="left text-right line-height40 width100"><span class="redNum">*</span>银行:</div>
-                    <div class="inputCard line-height40 left">
-                        <div class="row">请选择银行 <span></span></div>
-                        <ul>
-                            <li> zhong</li>
-                            <li>1</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row marauto width470 margin_buttom20">
-                    <div class="left text-right line-height40 width100"><span class="redNum">*</span>银行卡号:</div>
-                    <div class="inputCard left"><input type="text" placeholder="银行卡信息需与持卡人一致"></div>
-                </div>
-                <div class="row  marauto width470 margin_buttom20">
-                    <div class="left text-right line-height40 width100"><span class="redNum">*</span>手机号:</div>
-                    <div class="left inputCard"><input type="tel" placeholder="请输入预留手机号"></div>
-                </div>
-                <div style="margin-top: 45px;">
-                    <div class="btn yelBtnBG">确认绑定</div>
-                </div>
-                <div style="height: 75px;"></div>
-                <div class="text-left padding-lr25 padding_buttom40">
-                    <p class="line-height23 color3">温馨提示</p>
-                    <p class="font_14 line-height23 color6">1、为了身份信息一银行卡匹配验证，将进行0.01元小额扣款，成功后会转入您的平台账户余额</p>
-                    <p class="font_14 line-height23 color6">2、同时绑定银行卡默认成为您的唯一银行卡</p>
-                </div>
-
-
+<div class="payMoney">
+    <div class="payMoneyT">
+        <p>定宝-1056</p>
+        <p>投资金额 <span class="color6ed font_22">1000.00</span></p>
+    </div>
+    <div class="payMoneyF">
+        <div class="payMoneyFTop">
+            <div class="payMoneyFTopA">
+                <div></div>
+                <p>当前可用余额： <span>4150.00</span></p>
             </div>
+            <p class="payMoneyFTopB">还需支付：<span>0.00</span></p>
 
 
         </div>
+
+
+
+
+        <div class="payMoneyFFoot">
+            <div class="payMoneyFFootA">
+                <span class="spanImg_seco"><img src="public/images/greenT.png" alt="false"></span>
+                <span>我已阅读并同意<a href="">《p兜开采借款协议》</a></span>
+            </div>
+            <div class="payMoneyFFootB">
+                <div>确认付款</div>
+            </div>
+        </div>
+
     </div>
 
 
 </div>
-
 <div style="width:100%;" class="oFoot">
     <div class="foot">
         <div class="footT row">
@@ -154,7 +144,6 @@
     </div>
 
 </div>
-
 <script src="public/js/jquery.min.js"></script>
 <script src="public/js/app.js"></script>
 </body>

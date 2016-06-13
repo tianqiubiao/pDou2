@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="public/css/app.css">
-<body>
-<!--顶部-->
-<!--<a href="helpIng.html">帮助中心</a>-->
-<div class="top">
+<body class="bgwhite">
+
+<div class="top" >
     <div class="topNav">
         <ul class="topNavLeft">
             <li class="to">客服电话: &nbsp;<a href="tel:400-859-9090">400-859-9090</a></li>
@@ -18,30 +17,49 @@
             <li class="to1">P兜APP</li>
             <li class="topNavPad">
                 <ul class="topNavPeople">
-                    <li class="id_zh to2 pointer color6">注册<span><p>领活动本金</p></span></li>
+                    <li class="id_zh to2 pointer"  data-href="register.html">注册<span><p>领活动本金</p></span></li>
                     <li class="sign pointer ">登录</li>
                 </ul>
             </li>
-            <li class="id_helpIng pointer"><a href="helpIng.html" class="color6" target="_blank">帮助中心</a></li>
+            <li class="id_helpIng pointer" data-href="helpIng.html" data-target="_blank">帮助中心</li>
+        </ul>
+    </div>
+</div>
+<div class="top" style="">
+    <div class="topNav row">
+        <ul class="topNavLeft">
+            <li class="to">客服电话: &nbsp;<a href="tel:400-859-9090">400-859-9090</a></li>
+            <li class="wx">客服微信 <img src="public/images/weixin.png" alt=""
+                                     class="w"></li>
+        </ul>
+        <ul class="right topNavRight">
+            <li class="to1">P兜APP</li>
+            <li class="uesr_name">
+                <div id="account_in"><span>&nbsp;</span>&nbsp;<span>我的账户</span>&nbsp;<span>[137****000]</span></div>
+            </li>
+            <li class="afterDis color_pink" data-href="w-wodexiaoxi.html">消息</li>
+            <li class="clearCook">退出</li>
+            <li class="id_helpIng pointer" data-href="helpIng.html" data-target="_blank">帮助中心</li>
         </ul>
     </div>
 </div>
 <!--导航-->
+
 <div class="second">
     <div class="secondTop row">
-        <div class="left"><img src="public/images/h1.png" alt="P兜理财"></div>
+        <div class="left">
+            <h1><img src="public/images/h1.png" alt="P兜理财"></h1>
+        </div>
         <div id="banCard0" class="left">
-            <div class="navColor"><a href="index.html">&nbsp;&nbsp;首页</a></div>
-            <div class=" pointer"><a href="sellMoney.html">定期理财</a></div>
-            <div class=" pointer"><a href="tarenzhuanrang.html">他人转让</a></div>
-            <div class=" pointer"><a href="safe.html">安全保障</a></div>
-            <div class=" pointer"><a href="about_ous.html">关于我们</a></div>
+            <div class=" pointer" data-href="index.html">&nbsp;&nbsp;首页</div>
+            <div class=" pointer" data-href="sellMoney.html">定期理财</div>
+            <div class=" pointer" data-href="tarenzhuanrang.html">他人转让</div>
+            <div class=" pointer" data-href="safe.html">安全保障</div>
+            <div class="pointer" data-href="about-team.html">关于我们</div>
         </div>
     </div>
 </div>
-<!--banner-->
 
-<!--登录-->
 <div class="sing">
     <div class="singIn">
         <div class="singInL"><img src="public/images/sing-in.png" alt=""></div>
@@ -72,7 +90,7 @@
                 <div class="singInRR"><input type="text" placeholder="选填" id="sing4"></div>
             </div>
             <div class="singInLas  trueDisplay" id="sing5">
-                <span><img src="public/images/greenT.png" alt="false"></span>我已阅读并同意 <a href="javascript:;">《P兜理财用户服务协议》</a>
+                <span class="spanImg_seco"><img src="public/images/greenT.png" alt="false"></span>我已阅读并同意 <a href="javascript:;">《P兜理财用户服务协议》</a>
             </div>
             <div class="singInLast true_sign_on"><a href="javascript:;">注&nbsp;册</a></div>
             <div id="worUesr"></div>
@@ -105,7 +123,7 @@
             <div class="sign_down">登录</div>
             <div class="sign_in_down">
                 <div class="redNum">注册领活动本金</div>
-                <div class="queNum">忘记密码</div>
+                <div class="queNum" data-href="zhoahuimima.html">忘记密码</div>
             </div>
         </div>
     </div>
@@ -178,11 +196,6 @@
 
 
 
-
-
-
-
-
     function phone(e) {
         e.target = e.target | e.srcElement;
         var that = $(e);
@@ -200,7 +213,7 @@
         }
 
 
-//    }
+    }
     //    function passWord() {
     //        if ($('#sing1').val().length === 0) {
     //            $('#worUesr').html('请输入密码！')

@@ -5,35 +5,57 @@
     <title>Title</title>
     <link rel="stylesheet" href="public/css/app.css">
 </head>
-<body>
-<div class="top">
+<body class="bgwhite">
+<div class="top" >
     <div class="topNav">
         <ul class="topNavLeft">
             <li class="to">客服电话: &nbsp;<a href="tel:400-859-9090">400-859-9090</a></li>
-            <li class="wx">客服微信 <img src="public/images/weixin.png" alt="" class="w"></li>
+            <li class="wx">客服微信 <img src="public/images/weixin.png" alt=""
+                                     class="w"></li>
         </ul>
         <ul class="topNavRight">
             <li class="to1">P兜APP</li>
             <li class="topNavPad">
                 <ul class="topNavPeople">
-                    <li class="id_zh to2">注册<span><p>领活动本金</p></span></li>
-                    <li class="sign">登录</li>
+                    <li class="id_zh to2 pointer"  data-href="register.html">注册<span><p>领活动本金</p></span></li>
+                    <li class="sign pointer ">登录</li>
                 </ul>
             </li>
-            <li class="id_helpIng">帮助中心</li>
+            <li class="id_helpIng pointer" data-href="helpIng.html" data-target="_blank">帮助中心</li>
+        </ul>
+    </div>
+</div>
+<div class="top" style="">
+    <div class="topNav row">
+        <ul class="topNavLeft">
+            <li class="to">客服电话: &nbsp;<a href="tel:400-859-9090">400-859-9090</a></li>
+            <li class="wx">客服微信 <img src="public/images/weixin.png" alt=""
+                                     class="w"></li>
+        </ul>
+        <ul class="right topNavRight">
+            <li class="to1">P兜APP</li>
+            <li class="uesr_name">
+                <div id="account_in"><span>&nbsp;</span>&nbsp;<span>我的账户</span>&nbsp;<span>[137****000]</span></div>
+            </li>
+            <li class="afterDis color_pink" data-href="w-wodexiaoxi.html">消息</li>
+            <li class="clearCook">退出</li>
+            <li class="id_helpIng pointer" data-href="helpIng.html" data-target="_blank">帮助中心</li>
         </ul>
     </div>
 </div>
 <!--导航-->
+
 <div class="second">
-    <div class="secondTop">
-        <div><img src="public/images/h1.png" alt="P兜理财"></div>
-        <div id="banCard0">
-            <div class="navColor">首页</div>
-            <div>定期理财</div>
-            <div>他人转让</div>
-            <div>安全保障</div>
-            <div>关于我们</div>
+    <div class="secondTop row">
+        <div class="left">
+            <h1><img src="public/images/h1.png" alt="P兜理财"></h1>
+        </div>
+        <div id="banCard0" class="left">
+            <div class=" pointer" data-href="index.html">&nbsp;&nbsp;首页</div>
+            <div class=" pointer" data-href="sellMoney.html">定期理财</div>
+            <div class=" pointer" data-href="tarenzhuanrang.html">他人转让</div>
+            <div class=" pointer" data-href="safe.html">安全保障</div>
+            <div class="pointer" data-href="about-team.html">关于我们</div>
         </div>
     </div>
 </div>
@@ -55,7 +77,7 @@
             </div>
         </div>
         <div id="trueI">4</div>
-        <div class="passwordFootDown">立即认证</div>
+        <div class="btn yelBtnBG mar_top80">立即认证</div>
     </div>
 </div>
 <div style="width:100%;" class="oFoot">
@@ -63,7 +85,7 @@
         <div class="footT row">
             <div class="footTF left">
                 <div class="footTFT">友情链接</div>
-                <div class="footTFF"><img src="public/images/default.gif" trueImg="public/images/pNav.png" alt=""
+                <div class="footTFF"><img src="public/images/pNav.png" alt=""
                                           class="marauto block"></div>
             </div>
             <div class="footTR left">
@@ -110,7 +132,9 @@
             </div>
         </div>
     </div>
-    <div class="sign_on"></div>
+
 </div>
+<script src="public/js/jquery.min.js"></script>
+<script src="public/js/app.js"></script>
 </body>
 </html>
