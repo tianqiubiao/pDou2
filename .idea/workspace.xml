@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a932d781-f958-4191-930b-08212efd01c8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w-password.html" afterPath="$PROJECT_DIR$/w-password.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chongzhimimaok.html" afterPath="$PROJECT_DIR$/chongzhimimaok.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="pDou2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +25,7 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6534202">
+    <splitter split-orientation="horizontal" split-proportion="0.34592834">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="about_ous.html" pinned="false" current-in-tab="false">
@@ -128,6 +129,18 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="chongzhimimaok.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/chongzhimimaok.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.4937063">
+                  <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+                  <folding>
+                    <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="css.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/js/css.js">
               <provider selected="true" editor-type-id="text-editor">
@@ -193,11 +206,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="w-password.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="w-password.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/w-password.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.35578144">
-                  <caret line="51" column="106" selection-start-line="51" selection-start-column="106" selection-end-line="51" selection-end-column="106" />
+                <state vertical-scroll-proportion="-24.137932">
+                  <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -259,10 +272,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.59097975">
+                <state vertical-scroll-proportion="-13.103448">
                   <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -300,11 +313,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-13.896552">
-                  <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.6068152">
+                  <caret line="567" column="63" selection-start-line="567" selection-start-column="63" selection-end-line="567" selection-end-column="63" />
                   <folding>
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#3;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -477,7 +490,6 @@
         <option value="$PROJECT_DIR$/safe.html" />
         <option value="$PROJECT_DIR$/account_wukatixan.html" />
         <option value="$PROJECT_DIR$/bankCards.html" />
-        <option value="$PROJECT_DIR$/chongzhimimaok.html" />
         <option value="$PROJECT_DIR$/tarenzhuanrang.html" />
         <option value="$PROJECT_DIR$/w-accounttixan2.html" />
         <option value="$PROJECT_DIR$/w-accounttixian1.html" />
@@ -502,7 +514,6 @@
         <option value="F:/workspace/pdou-webapp/static-files/out_sign.html" />
         <option value="$PROJECT_DIR$/public/css/app.css" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about-call.html" />
         <option value="$PROJECT_DIR$/about-friend.html" />
         <option value="$PROJECT_DIR$/about-news.html" />
@@ -513,6 +524,8 @@
         <option value="$PROJECT_DIR$/inde.html" />
         <option value="$PROJECT_DIR$/my_accountCz.html" />
         <option value="$PROJECT_DIR$/w-password.html" />
+        <option value="$PROJECT_DIR$/chongzhimimaok.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -522,8 +535,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-35" />
-    <option name="y" value="44" />
+    <option name="x" value="192" />
+    <option name="y" value="110" />
     <option name="width" value="1573" />
     <option name="height" value="998" />
   </component>
@@ -621,7 +634,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-35" y="44" width="1573" height="998" extended-state="0" />
+    <frame x="192" y="110" width="1573" height="998" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26178592" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -715,17 +728,6 @@
         <state vertical-scroll-proportion="-13.793103">
           <caret line="55" column="51" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chongzhimimaok.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.275862">
-          <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
-          <folding>
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,18 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.896552">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about-call.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.965517">
@@ -1119,7 +1109,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59097975">
+        <state vertical-scroll-proportion="-13.103448">
           <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1206,9 +1196,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/w-password.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35578144">
-          <caret line="51" column="106" selection-start-line="51" selection-start-column="106" selection-end-line="51" selection-end-column="106" />
+        <state vertical-scroll-proportion="-24.137932">
+          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chongzhimimaok.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4937063">
+          <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+          <folding>
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6068152">
+          <caret line="567" column="63" selection-start-line="567" selection-start-column="63" selection-end-line="567" selection-end-column="63" />
+          <folding>
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
