@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a932d781-f958-4191-930b-08212efd01c8" name="Default" comment="" />
+    <list default="true" id="a932d781-f958-4191-930b-08212efd01c8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="pDou2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +24,7 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.34592834">
+    <splitter split-orientation="horizontal" split-proportion="0.3029316">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="about_ous.html" pinned="false" current-in-tab="false">
@@ -129,8 +131,8 @@
           <file leaf-file-name="chongzhimimaok.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/chongzhimimaok.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.4937063">
-                  <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+                <state vertical-scroll-proportion="0.9230769">
+                  <caret line="149" column="75" selection-start-line="148" selection-start-column="16" selection-end-line="149" selection-end-column="75" />
                   <folding>
                     <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
@@ -313,8 +315,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5281782">
-                  <caret line="568" column="18" selection-start-line="568" selection-start-column="18" selection-end-line="568" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.7116645">
+                  <caret line="567" column="75" selection-start-line="567" selection-start-column="75" selection-end-line="567" selection-end-column="75" />
                   <folding>
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#3;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1201,8 +1203,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chongzhimimaok.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.4937063">
-          <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.9230769">
+          <caret line="149" column="75" selection-start-line="148" selection-start-column="16" selection-end-line="149" selection-end-column="75" />
           <folding>
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -1211,8 +1213,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5281782">
-          <caret line="568" column="18" selection-start-line="568" selection-start-column="18" selection-end-line="568" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.7116645">
+          <caret line="567" column="75" selection-start-line="567" selection-start-column="75" selection-end-line="567" selection-end-column="75" />
           <folding>
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
