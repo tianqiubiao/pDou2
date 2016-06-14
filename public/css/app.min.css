@@ -25,7 +25,7 @@ a {
 
 body, html {
     width: 100%;
-    background: #f9f9f9;;
+    background: #f9f9f9
 }
 
 .banner, .center, .foot, .last, .pic, .second, .sing, .top {
@@ -47,9 +47,10 @@ body, html {
 }
 
 .top .topNav {
-font-size: 14px;
-    color: #333;
+    font-size: 14px;
+    color: #333
 }
+
 .uesr_name div {
     margin: 0 10px;
     width: 185px;
@@ -57,43 +58,44 @@ font-size: 14px;
     line-height: 20px;
     padding: 0 10px;
     background: #f77f96;
-    color: #ffffff;
+    color: #fff;
     border-radius: 5px;
     font-size: 14px
 }
 
 .uesr_name div span:nth-child(1) {
-    background: url("../images/people_nav.png") no-repeat;
-
+    background: url(../images/people_nav.png) no-repeat
 }
 
 .topNav .topNavUser li {
-    border-left: 1px solid #EEEEEE;
+    border-left: 1px solid #EEE
 }
 
 .topNav .topNavUser li:first-child {
-    border: none;
+    border: none
 }
 
 .afterDis::after {
     position: relative;
-    top: -10px;;
+    top: -10px;
     display: inline-block;
     width: 5px;
     height: 5px;
     border-radius: 50%;
     background: #f77f96;
-    content: '';
+    content: ''
 }
-.money_item_list li{
-    cursor: pointer;
+
+.money_item_list li {
+    cursor: pointer
 }
+
 .wx {
     position: relative;
     padding-left: 30px !important;
     background: url(../images/weixin.png) no-repeat;
     -ms-background-position-y: -6px;
-    background-position-y: -6px;;
+    background-position-y: -6px
 }
 
 .w {
@@ -114,18 +116,15 @@ font-size: 14px;
 .top {
     padding: 10px 0;
     height: 20px;
-    background: #FFFFFF;
+    background: #FFF
 }
-
-
 
 .topNav:after {
     content: " "
 }
 
 .topNav ul {
-    list-style: none;
-
+    list-style: none
 }
 
 .topNav .topNavLeft {
@@ -140,7 +139,7 @@ font-size: 14px;
     float: left;
     padding: 0 10px;
     height: 20px;
-    line-height: 20px;
+    line-height: 20px
 }
 
 .top .topNav .topNavLeft li:nth-child(1) {
@@ -182,16 +181,15 @@ font-size: 14px;
 .to {
     padding-left: 25px !important;
     background: url(../images/kftel.png) no-repeat;
-
     -ms-background-position-y: -6px;
-    background-position-y: -6px;;
+    background-position-y: -6px
 }
 
 .to1 {
     padding-left: 25px !important;
     background: url(../images/app.png) no-repeat;
     -ms-background-position-y: -3px;
-    background-position-y: -3px;;
+    background-position-y: -3px
 }
 
 .to2 {
@@ -213,11 +211,10 @@ font-size: 14px;
 }
 
 .second .secondTop div:nth-child(1) {
-
     margin-top: 20px;
     margin-left: 20px;
     width: 405px;
-    height: 100%;
+    height: 100%
 }
 
 .second .secondTop div:nth-child(2) {
@@ -226,7 +223,7 @@ font-size: 14px;
     height: 45px;
     color: #fff;
     text-align: center;
-    font-size: 18px;
+    font-size: 18px
 }
 
 .second .secondTop div:nth-child(2) div {
@@ -234,7 +231,7 @@ font-size: 14px;
     margin-left: 38px;
     width: 80px;
     height: 40px;
-    line-height: 40px;
+    line-height: 40px
 }
 
 .banCard {
@@ -249,17 +246,18 @@ font-size: 14px;
 
 .banCard .banOuter .banCard0 {
     float: left;
-
     width: 100%
 }
-.banner_font{
+
+.banner_font {
     position: absolute;
     font-size: 88px;
     top: 60px;
-    left: 80px;
+    left: 80px
 }
-.banner_font span{
-    font-size: 42px;
+
+.banner_font span {
+    font-size: 42px
 }
 
 .navDis {
@@ -299,8 +297,8 @@ font-size: 14px;
 .banner .bannerZC .bannerRz .bannerRzLio div:nth-child(1) {
     width: 100%;
     height: 30px;
-    font-size:18px;
-    color: #666;
+    font-size: 18px;
+    color: #666
 }
 
 .banner .bannerZC .bannerRz .bannerRzLio div:nth-child(2) {
@@ -310,7 +308,6 @@ font-size: 14px;
     border-radius: 5px;
     background: #F4B942;
     color: #fff;
-
     line-height: 35px
 }
 
@@ -333,7 +330,7 @@ font-size: 14px;
 .pic {
     overflow: hidden;
     padding-bottom: 45px;
-    background: #FFFFFF;
+    background: #FFF
 }
 
 .pic .picList {
@@ -373,7 +370,7 @@ font-size: 14px;
     left: 66px;
     color: #fff;
     text-align: center;
-    font-size: 22px;
+    font-size: 22px
 }
 
 .pic .picList .picListD .picListf {
@@ -445,7 +442,7 @@ font-size: 14px;
 
 .pic .picList .picListR .picListRT .pic_right p {
     font-size: 18px;
-    color:#333333
+    color: #333
 }
 
 .pic .picList .picListR .picListRT .pic_right p:nth-child(1) {
@@ -459,7 +456,7 @@ font-size: 14px;
 .pic .picList .picListR .picListRT .pic_right .pic_foot p:nth-child(1) {
     display: block;
     padding-left: 25px;
-    background: url(../images/Ia.png) no-repeat;
+    background: url(../images/Ia.png) no-repeat
 }
 
 .pic .picList .picListR .picListRT .pic_right .pic_foot p:nth-child(2) {
@@ -487,9 +484,9 @@ font-size: 14px;
     width: 80px;
     height: 40px;
     line-height: 47px;
-    font-weight: bold;
+    font-weight: 700;
     color: #333;
-    font-size: 14px;
+    font-size: 14px
 }
 
 #msge .mageUI {
@@ -512,7 +509,7 @@ font-size: 14px;
     height: 40px;
     line-height: 48px;
     color: #666;
-    font-size: 14px;
+    font-size: 14px
 }
 
 #msge .mageMore {
@@ -521,11 +518,12 @@ font-size: 14px;
     left: 981px;
     width: 85px;
     line-height: 47px;
-font-size: 14px}
+    font-size: 14px
+}
 
 .foot {
     height: 313px;
-    background:#2B2C31;
+    background: #2B2C31;
     color: #cbcbcc
 }
 
@@ -533,16 +531,16 @@ font-size: 14px}
     padding-top: 41px
 }
 
-
-
 .foot .footT .footTF {
     width: 105px;
     height: 225px;
-    font-size: 14px;
+    font-size: 14px
 }
-.footTRD2 .footTRD2T{
-    margin-left: 10px;
+
+.footTRD2 .footTRD2T {
+    margin-left: 10px
 }
+
 .foot .footT .footTF .footTFT {
     height: 121px;
     line-height: 35px;
@@ -560,7 +558,7 @@ font-size: 14px}
 
 .foot .footT .footTR div:nth-child(1) ul {
     clear: both;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .foot .footT .footTR div ul li {
@@ -579,11 +577,9 @@ font-size: 14px}
     display: inline-block
 }
 
-
-
 .foot .footT .footTR .footTRD2 .footTRD2F {
     text-align: right;
-    line-height: 25px;
+    line-height: 25px
 }
 
 .foot div {
@@ -645,7 +641,7 @@ font-size: 14px}
     position: relative;
     height: 100%;
     background: url(../images/easeto.png) no-repeat;
-    background-position-x:50% ;
+    background-position-x: 50%;
     -ms-background-position-x: 50%;
     color: #fff
 }
@@ -679,7 +675,7 @@ font-size: 14px}
 
 .last .lastT ul li:nth-child(4) {
     top: 204px;
-    left:642px
+    left: 642px
 }
 
 .last .lastT ul li:nth-child(5) {
@@ -726,7 +722,6 @@ font-size: 14px}
     text-align: center;
     line-height: 180px;
     font-size: 20px
-;
 }
 
 .last .lastT ul li p {
@@ -773,7 +768,7 @@ font-size: 14px}
     margin-left: 17px;
     width: 260px;
     height: 385px;
-    border:1px solid #6ed3d6;
+    border: 1px solid #6ed3d6;
     border-radius: 5px
 }
 
@@ -785,7 +780,6 @@ font-size: 14px}
     padding-top: 15px;
     width: 100%;
     height: 55px;
-
     background: #6ed3d6
 }
 
@@ -801,7 +795,7 @@ font-size: 14px}
 
 .center .lc .lcF .lcFD .lcFDT p:nth-child(2) {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 20px
 }
 
 .center .lc .lcF .lcFDC {
@@ -815,26 +809,23 @@ font-size: 14px}
     position: relative;
     margin: 0 auto;
     width: 200px;
-    height: 200px;
-
+    height: 200px
 }
-.wh199{
+
+.wh199 {
     width: 199px;
-    height: 199px;;;
+    height: 199px
 }
-.wh187{
+
+.wh187 {
     width: 189px;
-    height: 189px;;
+    height: 189px
 }
 
-.font_32{
-    font-size: 32px !important;;
-    line-height: 50px;
+.font_32 {
+    font-size: 32px !important;
+    line-height: 50px
 }
-
-
-
-
 
 .center .lc .lcFD .lcFDF {
     position: absolute;
@@ -847,8 +838,8 @@ font-size: 14px}
     background: #F77F96;
     line-height: 40px;
     text-align: center;
-    color: white;
-    font-size: 20px;
+    color: #fff;
+    font-size: 20px
 }
 
 .center .lc .lcFD .lcFDF a {
@@ -856,25 +847,29 @@ font-size: 14px}
     width: 100%;
     height: 40px;
     text-align: center;
-    line-height: 40px;
+    line-height: 40px
 }
 
 .center .lc .lcF .lcFD .lcFDn {
     overflow: hidden;
-    padding:0 20px;
-    height: 40px;
+    padding: 0 20px;
+    height: 40px
 }
-.colorf56{
-    color: #f56478;
+
+.colorf56 {
+    color: #f56478
 }
-.colorf5c{
+
+.colorf5c {
     color: #f5c25a
 }
+
 .center .lc .lcF .lcFD .lcFDn span {
     font-size: 30px
 }
-.center .lc .lcF .lcFD .lcFDn span span{
-    font-size: 20px;
+
+.center .lc .lcF .lcFD .lcFDn span span {
+    font-size: 20px
 }
 
 .center .lc .lcF .lcFD .lcFDn span:nth-child(3) {
@@ -905,7 +900,7 @@ font-size: 14px}
     width: 258px;
     height: 330px;
     border-radius: 5px;
-    border: 1px solid #6ed3d6;
+    border: 1px solid #6ed3d6
 }
 
 .marginNo {
@@ -916,7 +911,6 @@ font-size: 14px}
     padding-top: 15px;
     width: 100%;
     height: 55px;
-
     background: #6ed3d6
 }
 
@@ -947,31 +941,31 @@ font-size: 14px}
     top: 15px;
     margin: 0 auto;
     width: 225px;
-    height: 62px;
-
+    height: 62px
 }
 
-
-.font_32_line{
-    font-size: 32px;
+.font_32_line {
+    font-size: 32px
 }
-.font_14_20{
+
+.font_14_20 {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 20px
 }
+
 .center .zr .lcFD .lcFDF {
     position: absolute;
     left: -1px;
     bottom: -1px;
-    width:260px;
+    width: 260px;
     height: 40px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     background: #F77F96;
     line-height: 40px;
     text-align: center;
-    color: white;
-    font-size: 20px;
+    color: #fff;
+    font-size: 20px
 }
 
 .center .zr .lcFD .lcFDF a {
@@ -985,7 +979,7 @@ font-size: 14px}
 .center .zr .lcF .lcFD .lcFDn {
     overflow: hidden;
     height: 40px;
-    padding:0 20px;
+    padding: 0 20px
 }
 
 .center .zr .lcF .lcFD .lcFDn span {
@@ -1056,7 +1050,7 @@ font-size: 14px}
     width: 135px;
     text-align: right;
     font-size: 18px;
-    color: #333333;;
+    color: #333
 }
 
 .sing .singIn .singInR .singInR1 .singInRR {
@@ -1073,7 +1067,7 @@ font-size: 14px}
     width: 250px;
     height: 35px;
     border: none;
-    font-size: 18px;
+    font-size: 18px
 }
 
 .sing .singIn .singInR .singInR1 .singInRR #sing3 {
@@ -1207,29 +1201,31 @@ font-size: 14px}
 }
 
 .redNum {
-    color: #f56478!important;
+    color: #f56478 !important
 }
 
 .yellowNum {
-    color: #f4b942!important;
+    color: #f4b942 !important
 }
 
 .lightGreenNum {
-    color: #6ed3d6!important;
+    color: #6ed3d6 !important
 }
 
 .lightOrangeNum {
-    color: #f5c25a!important;
+    color: #f5c25a !important
 }
-.lightYellowNum{
-    color: #FFE98D!important;
+
+.lightYellowNum {
+    color: #FFE98D !important
 }
+
 .greenNum {
-    color: #57d090!important;
+    color: #57d090 !important
 }
 
 .queNum {
-    color: #7ddef7!important;
+    color: #7ddef7 !important
 }
 
 .buy, .moneyT {
@@ -1369,7 +1365,7 @@ font-size: 14px}
 .money .moneyCenter div ul .mCLi5 {
     width: 195px;
     line-height: 75px;
-    font-size: 18px;
+    font-size: 18px
 }
 
 .money .moneyCenter div ul .mCLi6 {
@@ -1407,6 +1403,7 @@ font-size: 14px}
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px
 }
+
 .moneyT {
     width: 100%
 }
@@ -1417,7 +1414,7 @@ font-size: 14px}
 
 .money {
     background: #f9f9f9;
-    padding-bottom: 40px;
+    padding-bottom: 40px
 }
 
 .moneyT {
@@ -1513,14 +1510,17 @@ font-size: 14px}
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     text-align: left;
-    font-size: 18px;
+    font-size: 18px
 }
-.borderGrey{
-border: 2px solid #ccc !important;
+
+.borderGrey {
+    border: 2px solid #ccc !important
 }
-.font_30{
-    font-size: 30px;
+
+.font_30 {
+    font-size: 30px
 }
+
 .moneyCenter div ul .mCLi2 {
     width: 108px;
     font-size: 16px;
@@ -1548,7 +1548,7 @@ border: 2px solid #ccc !important;
 
 .moneyCenter div ul .mCLi5 {
     width: 190px;
-    line-height: 50px;;
+    line-height: 50px
 }
 
 .moneyCenter div ul .mCLi6 {
@@ -1585,9 +1585,8 @@ border: 2px solid #ccc !important;
     width: 170px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    line-height: 50px;
+    line-height: 50px
 }
-
 
 .mCLi3 {
     padding: 0 !important;
@@ -1680,12 +1679,12 @@ border: 2px solid #ccc !important;
 
 #sell .sellCenter .mCLi5 {
     width: 157px;
-    margin-right: 10px;
+    margin-right: 10px
 }
 
 #sell {
     background: #F9F9F9;
-    padding-bottom: 40px;
+    padding-bottom: 40px
 }
 
 .posrel {
@@ -1702,25 +1701,25 @@ border: 2px solid #ccc !important;
 .lcFDQ .lcFDCQT {
     float: left;
     margin-left: 15px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .lcFDQ .lcFDQF {
     float: right;
     margin-right: 15px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .lcFDQ .lcFDCQT span:nth-child(odd), .lcFDQ .lcFDQF span:nth-child(odd) {
     font-size: 32px
 }
-.lcFDQ .lcFDCQT span:nth-child(even),.lcFDQ .lcFDQF span:nth-child(even) {
 
+.lcFDQ .lcFDCQT span:nth-child(even), .lcFDQ .lcFDQF span:nth-child(even) {
     font-size: 20px
 }
-.lcFDQ .lcFDCQT div:nth-child(1) {
-    color: #f56478;
 
+.lcFDQ .lcFDCQT div:nth-child(1) {
+    color: #f56478
 }
 
 .lcFDQ .lcFDQF div:nth-child(1) {
@@ -1758,7 +1757,7 @@ input {
     text-align: left;
     line-height: 35px;
     font-size: 14px;
-    color: #333;
+    color: #333
 }
 
 .bank_meg .bank_list {
@@ -1823,7 +1822,7 @@ input {
 
 .absYesBuy div {
     text-align: left;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .absYesBuy div span {
@@ -1876,7 +1875,6 @@ input {
     top: 35px;
     padding: 0 0 0 65px;
     width: 1035px;
-
     border-top: 2px solid #f77f96
 }
 
@@ -1884,7 +1882,7 @@ input {
     height: 45px;
     font-size: 18px;
     line-height: 45px;
-    color: #333;
+    color: #333
 }
 
 .posMoneyFoot .posMoneyFootA .posMoneyJJ div div:nth-child(2) ul {
@@ -1896,7 +1894,7 @@ input {
     overflow: hidden;
     width: 345px;
     font-size: 14px;
-    color: #666;
+    color: #666
 }
 
 .posMoneyFoot .posMoneyFootA .posMoneyJJ div div:nth-child(2) ul li span {
@@ -1921,7 +1919,7 @@ input {
     width: 865px;
     line-height: 25px;
     font-size: 14px;
-    color: #666;
+    color: #666
 }
 
 .posMoneyFoot .posMoneyFootA .posMoneyTT {
@@ -1929,7 +1927,7 @@ input {
     left: 0;
     height: 630px;
     text-align: center;
-    background: #FFFFFF;
+    background: #FFF
 }
 
 .posMoneyFoot .posMoneyFootA .posMoneyTT .posMoneyTouZi {
@@ -1947,7 +1945,7 @@ input {
     padding: 0 66px;
     height: 515px;
     line-height: 50px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .posMoneyFoot .posMoneyFootA .posMoneyTT div ul {
@@ -1958,7 +1956,7 @@ input {
 .posMoneyFoot .posMoneyFootA .posMoneyTT div ul li {
     float: left;
     width: 322px;
-    color: #333;
+    color: #333
 }
 
 .posMoneyFoot .posMoneyFootA .posMoneyTT .posMoneyTouZi div ul li:nth-child(2) {
@@ -1970,21 +1968,20 @@ input {
     margin: 0 auto;
     width: 1100px;
     margin-top: 30px;
-    background: #FFFFFF;
+    background: #FFF
 }
 
 .posMoneyTopT {
     overflow: hidden;
     padding: 0 40px;
     height: 49px;
-    line-height: 45px;
-
+    line-height: 45px
 }
 
 .posMoneyTopT div:nth-child(1) {
     float: left;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700
 }
 
 .posMoneyTopT div:nth-child(2) {
@@ -2086,7 +2083,7 @@ input {
 
 .absFoot .absFootA div:nth-child(1) {
     width: 70px;
-    color: #333333;
+    color: #333
 }
 
 .absMoneyFootRight .absFootB {
@@ -2102,12 +2099,11 @@ input {
     color: #fff;
     text-align: center;
     line-height: 32px;
-    height: 34px;;
+    height: 34px
 }
 
 .absMoneyFootRight .absFootC div {
-    float: left;
-
+    float: left
 }
 
 .absMoneyFootRight .absFootC div:nth-child(1), .absMoneyFootRight .absFootC div:nth-child(3) {
@@ -2119,7 +2115,7 @@ input {
 .absMoneyFootRight .absFootC input {
     width: 75px;
     height: 30px;
-    border:none;
+    border: none
 }
 
 .absMoneyFootRight .absFootD {
@@ -2161,7 +2157,7 @@ input {
     line-height: 35px
 }
 
- .absTopH {
+.absTopH {
     overflow: hidden;
     padding-top: 26px;
     width: 675px;
@@ -2169,26 +2165,27 @@ input {
     border-top: 1px dashed #EEE
 }
 
- .absTopH div {
+.absTopH div {
     float: left
 }
- .absTopH .absTopHa {
+
+.absTopH .absTopHa {
     float: right;
-     line-height: 20px;
-     color: #666;
+    line-height: 20px;
+    color: #666
 }
 
- .absTopH div p {
+.absTopH div p {
     color: #666;
-     font-size: 14px;
+    font-size: 14px
 }
 
- .absTopH div p span {
-     font-size: 16px;
+.absTopH div p span {
+    font-size: 16px;
     color: #333
 }
 
- .absTopH .absTopHa span {
+.absTopH .absTopHa span {
     display: inline-block;
     width: 28px;
     height: 20px;
@@ -2241,9 +2238,11 @@ input {
 .posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA2 {
     width: 130px
 }
-.font_16{
-    font-size: 16px!important;
+
+.font_16 {
+    font-size: 16px !important
 }
+
 .posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA3 {
     width: 255px
 }
@@ -2256,13 +2255,13 @@ input {
     height: 85px;
     font-size: 14px;
     line-height: 85px;
-    color: #666;
+    color: #666
 }
 
 .posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA1 div:nth-child(2), .posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA2 div:nth-child(2) {
     height: 55px;
     font-size: 32px;
-    line-height: 55px;
+    line-height: 55px
 }
 
 .posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA3 div {
@@ -2299,9 +2298,9 @@ input {
 
 .posMoney .posMoneyTopF .posMoneyTopB .posMoneyTopLB, .posMoney .posMoneyTopF .posMoneyTopB .posMoneyTopLC {
     float: left;
-    margin:20px 0;
+    margin: 20px 0;
     font-size: 14px;
-    color: #666;
+    color: #666
 }
 
 .posMoney .posMoneyTopF .posMoneyTopB .posMoneyTopLC {
@@ -2323,11 +2322,10 @@ input {
 .posMoney .posMoneyTopF .posMoneyTopR .posMoneyTopRA div:nth-child(2) {
     line-height: 35px
 }
-.font_42{
-    font-size: 42px;
+
+.font_42 {
+    font-size: 42px
 }
-
-
 
 .posMoney .posMoneyTopF .posMoneyTopL .posMoneyTopA .posMoneyTopA2 div:nth-child(2) span {
     color: #6ed3d6
@@ -2343,17 +2341,14 @@ input {
 
 .posMoney .posMoneyTop .posMoneyTopT {
     padding: 0 40px;
-    border-bottom: 1px dashed #CCC;
-
+    border-bottom: 1px dashed #CCC
 }
 
 .posMoney .posMoneyTop .posMoneyTopT div:nth-child(2) {
     float: right;
     color: #f77f96;
-    font-size: 14px;
+    font-size: 14px
 }
-
-
 
 #moneyList {
     position: absolute;
@@ -2391,7 +2386,6 @@ input {
     width: 31px;
     border-right: 1px solid #d5d5d5
 }
-
 
 .password .passwordTop {
     height: 95px;
@@ -2510,8 +2504,6 @@ input:focus {
     display: block
 }
 
-
-
 .password #trueI, .password #worUesr {
     position: absolute;
     width: 260px;
@@ -2545,7 +2537,7 @@ input:focus {
     width: 220px;
     height: 34px;
     background: #6ed3d6;
-    border:1px solid  #6ed3d6;
+    border: 1px solid #6ed3d6
 }
 
 .posMoneyTopRA .absFootC {
@@ -2570,13 +2562,13 @@ input:focus {
     width: 160px;
     height: 34px;
     border: none;
-    color: #666666;
+    color: #666
 }
 
 .posMoneyTopRA .absFootD {
     margin: 10px 0 15px 0;
     font-size: 14px;
-    color: #333;
+    color: #333
 }
 
 .posMoneyTopRA .absFootE {
@@ -2714,9 +2706,6 @@ input:focus {
     background: url(../images/close.png) no-repeat
 }
 
-
-
-
 .sign_on .sign_in {
     position: absolute;
     top: 50%;
@@ -2748,8 +2737,6 @@ input:focus {
     background: url(../images/close.png) no-repeat
 }
 
-
-
 .sign_on .sign_in .sign_foot .sign_footA {
     position: relative;
     height: 60px
@@ -2780,13 +2767,9 @@ input:focus {
     line-height: 40px
 }
 
-
-
 .sign_in_down div {
     float: left
 }
-
-
 
 .sign_in .sign_foot .sign_footA .sign_footD {
     overflow: hidden;
@@ -2796,15 +2779,9 @@ input:focus {
     border-radius: 5px
 }
 
-
-
-
-
 .sign_in .sign_foot .sign_footA .sign_footD input {
     float: right
 }
-
-
 
 .sign_in .sign_foot .sign_footE .sign_footA, .sign_in .sign_foot .sign_footE .sign_footF {
     float: left
@@ -2827,15 +2804,11 @@ input:focus {
     border: none
 }
 
-
-
 .sign_in .sign_foot .sign_footE .sign_footA .sign_fooC {
     display: none;
     color: red;
     font-size: 10px
 }
-
-
 
 .sign_pass {
     background: url(../images/sign_o.png) no-repeat
@@ -2863,7 +2836,7 @@ input:focus {
     text-align: center;
     line-height: 40px;
     font-size: 18px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .oriBtn {
@@ -2884,7 +2857,7 @@ input:focus {
 }
 
 .color_pink {
-    color: #f77f96!important;
+    color: #f77f96 !important
 }
 
 .yelBtnBG {
@@ -2908,7 +2881,7 @@ input:focus {
 }
 
 .color6 {
-    color: #666!important;
+    color: #666 !important
 }
 
 .color3 {
@@ -2938,9 +2911,11 @@ input:focus {
 .bgNum {
     background: #6ED3D6
 }
-.navNm{
-    color:#5FCDD0 !important;
+
+.navNm {
+    color: #5FCDD0 !important
 }
+
 .colorNum {
     color: #6ED3D6
 }
@@ -2957,9 +2932,11 @@ input:focus {
     color: #6CF;
     text-decoration: none
 }
-.mar_top80{
-    margin-top: 80px;
+
+.mar_top80 {
+    margin-top: 80px
 }
+
 .jyA {
     color: #390
 }
@@ -3103,11 +3080,13 @@ b:hover img {
 }
 
 .line-height23 {
-    line-height: 23px!important;
+    line-height: 23px !important
 }
+
 .line-height25 {
-    line-height: 25px!important;
+    line-height: 25px !important
 }
+
 .width {
     width: 100%
 }
@@ -3133,8 +3112,7 @@ b:hover img {
 }
 
 .my_account03Top, .my_account06Top, .my_account06center, .my_accountbandTop {
-    padding: 0 25px;
-
+    padding: 0 25px
 }
 
 .my_account06center {
@@ -3142,7 +3120,7 @@ b:hover img {
     height: 40px;
     line-height: 40px;
     color: #666;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .bgwhite {
@@ -3175,7 +3153,7 @@ b:hover img {
     height: 65px;
     line-height: 65px;
     font-size: 14px;
-    color: #666;
+    color: #666
 }
 
 .chickbox div {
@@ -3195,7 +3173,7 @@ b:hover img {
     border: 1px solid #EEE;
     border-radius: 4px;
     line-height: 14px;
-    margin-right: 10px;
+    margin-right: 10px
 }
 
 .deletebtn {
@@ -3223,7 +3201,7 @@ b:hover img {
 .account_masgerList {
     margin-bottom: 18px;
     font-size: 14px;
-    color: #666;
+    color: #666
 }
 
 .account_masgerListTop {
@@ -3240,7 +3218,7 @@ b:hover img {
 
 .account_masgerListFoot div {
     height: 20px;
-    line-height: 20px;
+    line-height: 20px
 }
 
 .fyList {
@@ -3276,11 +3254,11 @@ b:hover img {
     border: 1px solid #d5d5d5 !important;
     border-left: none !important;
     background: #FFF;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .fyList ul li:first-child {
-    border-left: 1px solid #d5d5d5!important;
+    border-left: 1px solid #d5d5d5 !important
 }
 
 .fyListBg {
@@ -3306,7 +3284,7 @@ b:hover img {
     background: #FFF;
     text-align: center;
     line-height: 40px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .ulLeft_list ul li:last-child {
@@ -3428,12 +3406,11 @@ d {
 .my_account00_center .left div {
     height: 40px;
     line-height: 40px;
-    color: #666;
+    color: #666
 }
 
 .my_account00_center span {
-    display: inline-block;
-
+    display: inline-block
 }
 
 .span160px {
@@ -3457,24 +3434,22 @@ d {
 }
 
 .scrio input {
-    padding-left: 15px;;
+    padding-left: 15px;
     width: 242px;
     height: 36px;
     border: none;
     line-height: 36px;
-    font-size: 18px;
+    font-size: 18px
 }
-
-
 
 .my_account00_foot {
     margin: 30px 0 50px 0;
-    color: #666;
+    color: #666
 }
 
 .my_account00_foot p {
     line-height: 25px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .font_20 {
@@ -3548,7 +3523,7 @@ d {
     width: 324px;
     height: 40px;
     border: none;
-    font-size: 18px;
+    font-size: 18px
 }
 
 .sellMoreTop {
@@ -3574,15 +3549,17 @@ d {
 }
 
 .zrxq_center {
-    height: 112px;
+    height: 112px
+}
 
+.border_t1 {
+    border-top: 1px solid #EEE
 }
-.border_t1{
-    border-top:1px solid #EEEEEE;
+
+.padding_t25 {
+    padding-top: 25px
 }
-.padding_t25{
-    padding-top: 25px;
-}
+
 .zrxq_center ul li {
     float: left;
     text-align: left
@@ -3594,8 +3571,9 @@ d {
     font-size: 14px;
     line-height: 40px
 }
-.font_36{
-    font-size: 36px;
+
+.font_36 {
+    font-size: 36px
 }
 
 .zrxq_center .zrxq_center_footer {
@@ -3685,12 +3663,12 @@ d {
     width: 50%;
     background: #f9f9f9;
     text-align: center;
-    font-size: 14px;
-
+    font-size: 14px
 }
-.inline_list li.bgOrange{
+
+.inline_list li.bgOrange {
     background: #ff8542;
-    color: #fff;
+    color: #fff
 }
 
 .ulLeft_list ul li div {
@@ -3699,10 +3677,12 @@ d {
     text-align: center;
     line-height: 20px
 }
-.ulLeft_list ul li div:last-child{
+
+.ulLeft_list ul li div:last-child {
     font-size: 13px;
-    color: #666;
+    color: #666
 }
+
 .ulLeft_list ul li div.deco {
     color: #f77f96;
     text-align: center;
@@ -3764,8 +3744,9 @@ d {
     height: 37px;
     line-height: 37px
 }
-.font_weight{
-    font-weight: bold;
+
+.font_weight {
+    font-weight: 700
 }
 
 .height56 {
@@ -3788,10 +3769,9 @@ d {
     height: 74px;
     text-align: left;
     line-height: 100px;
-    color: #666666;
-    font-size: 14px;
+    color: #666;
+    font-size: 14px
 }
-
 
 .Date {
     margin-top: 20px;
@@ -3831,7 +3811,7 @@ d {
     background: #FFF;
     text-align: center;
     line-height: 64px;
-    font-weight: 600;
+    font-weight: 600
 }
 
 .dayList ul li {
@@ -3860,7 +3840,7 @@ d {
 
 .dayList ul li div:nth-child(2) {
     color: #f77f96;
-    font-size: 18px;
+    font-size: 18px
 }
 
 .dayList ul li:nth-child(1) {
@@ -3895,14 +3875,14 @@ d {
     height: 40px;
     border: 1px solid #EEE;
     border-radius: 5px;
-    line-height: 40px;
+    line-height: 40px
 }
 
 .inputCard div {
     padding-left: 10px;
     height: 100%;
     background: #f9f9f9;
-    color: #666;
+    color: #666
 }
 
 .inputCard div .account_card_bottom {
@@ -3920,7 +3900,7 @@ d {
     height: 37px;
     border: none;
     font-size: 18px;
-    line-height: 37px;
+    line-height: 37px
 }
 
 .inputCard ul {
@@ -3972,7 +3952,7 @@ d {
 .ul3 {
     margin-top: 30px;
     font-size: 14px;
-    color: #666;
+    color: #666
 }
 
 .ul3 ul {
@@ -4036,7 +4016,7 @@ span.account_renzhengNo {
     float: left;
     width: 360px;
     height: 350px;
-    background: #FFFFFF;
+    background: #FFF
 }
 
 .aboutUList ul li:nth-child(2) {
@@ -4052,7 +4032,7 @@ span.account_renzhengNo {
     padding: 10px 20px 0 20px;
     height: 26px;
     color: #333;
-    font-size:18px;
+    font-size: 18px;
     line-height: 26px
 }
 
@@ -4068,17 +4048,17 @@ span.account_renzhengNo {
     padding: 5px 20px 20px 20px;
     height: 92px;
     line-height: 22px;
-    color: #666;
+    color: #666
 }
 
 .aboutUList ul li div:nth-child(4) p {
-font-size: 14px;
+    font-size: 14px;
     height: 91px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
     -webkit-line-clamp: 4;
-    line-clamp: 4;
+    line-clamp: 4
 }
 
 .inline_ul {
@@ -4120,16 +4100,16 @@ font-size: 14px;
 .company-item .headline {
     margin-bottom: 10px;
     padding-left: 340px;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 24px;
-    color: #333;
+    color: #333
 }
 
 .company-item .referral {
     padding-left: 340px;
     line-height: 160%;
     color: #666;
-    font-weight: bold;
+    font-weight: 700
 }
 
 .company-item .lit-img img {
@@ -4148,7 +4128,7 @@ font-size: 14px;
     padding: 50px 0 20px 0;
     width: 1100px;
     color: #60c0b9;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 30px
 }
 
@@ -4220,7 +4200,7 @@ font-size: 14px;
     width: 510px;
     color: #fff;
     line-height: 150%;
-    font-size: 15px;
+    font-size: 15px
 }
 
 .top-manager {
@@ -4350,7 +4330,7 @@ font-size: 14px;
     padding: 25px 30px 25px 14px;
     width: 1056px;
     background: #fff;
-    margin-top: 40px;
+    margin-top: 40px
 }
 
 .about_news .about_news_date {
@@ -4398,14 +4378,17 @@ font-size: 14px;
     padding: 15px 10px;
     color: #666;
     line-height: 20px;
-    font-size: 14px;
+    font-size: 14px
 }
-.font_14{
-    font-size: 14px;
+
+.font_14 {
+    font-size: 14px
 }
-.font_18{
-    font-size: 18px;
+
+.font_18 {
+    font-size: 18px
 }
+
 .my_account {
     position: relative;
     width: 100%
@@ -4435,7 +4418,7 @@ font-size: 14px;
     text-align: center;
     line-height: 43px;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 600
 }
 
 .my_Account .my_accountLeft div {
@@ -4446,9 +4429,11 @@ font-size: 14px;
     background: #f77f96;
     color: #fff
 }
+
 .my_Account .my_accountLeft div.bg {
-    color: #FFFFFF !important;
+    color: #FFF !important
 }
+
 .my_Account .my_accountLeft div:last-child {
     margin: 0
 }
@@ -4456,7 +4441,7 @@ font-size: 14px;
 .my_Account .my_accountRight {
     float: right;
     width: 911px;
-    min-height: 350px;
+    min-height: 350px
 }
 
 .my_account1Top {
@@ -4481,8 +4466,8 @@ font-size: 14px;
 .my_account1TopC1 {
     text-align: left;
     font-size: 16px;
-    font-weight: bold;
-    color: #666;
+    font-weight: 700;
+    color: #666
 }
 
 .my_account1TopC2 {
@@ -4494,7 +4479,7 @@ font-size: 14px;
 .my_account1TopC2 div {
     float: left;
     color: #666;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .my_account1TopC2 div img {
@@ -4522,7 +4507,7 @@ font-size: 14px;
     color: #fff;
     text-align: center;
     line-height: 30px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .noqd {
@@ -4566,7 +4551,7 @@ font-size: 14px;
     height: 40px;
     color: #666;
     line-height: 20px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .my_account1TopF {
@@ -4584,7 +4569,7 @@ font-size: 14px;
     color: #fff;
     text-align: center;
     line-height: 30px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .my_account1TopF div:nth-child(1) {
@@ -4610,7 +4595,7 @@ font-size: 14px;
 
 .my_account1TopRL1 {
     float: left;
-    width:250px;
+    width: 250px;
     height: 100%
 }
 
@@ -4618,7 +4603,7 @@ font-size: 14px;
     height: 29px;
     color: #333;
     line-height: 29px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .my_account1TopY {
@@ -4640,7 +4625,7 @@ font-size: 14px;
 .my_account1Top .my_account1TopZ .my_account1Z1 {
     text-align: right;
     color: #333;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .my_account1Top .my_account1TopZ .my_account1Z1 a {
@@ -4658,7 +4643,6 @@ font-size: 14px;
 
 .my_account1Top .my_account1TopR {
     overflow: hidden;
-
     width: 460px;
     height: 40px
 }
@@ -4668,7 +4652,7 @@ font-size: 14px;
     height: 40px;
     line-height: 40px;
     font-size: 14px;
-    color: #333333;
+    color: #333
 }
 
 .my_account1Top .my_account1TopR .my_account1TopRB {
@@ -4676,7 +4660,7 @@ font-size: 14px;
     height: 40px;
     line-height: 40px;
     font-size: 14px;
-    color: #333;
+    color: #333
 }
 
 .my_account1Top .my_account1TopRB span {
@@ -4703,7 +4687,7 @@ font-size: 14px;
 
 .my_account1FooterNav a {
     color: #999;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .my_account1FooterCenter {
@@ -4738,22 +4722,22 @@ font-size: 14px;
     height: 40px;
     background: #FFF;
     line-height: 40px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .my_account1FooterCenter ul li:first-child {
     margin-left: 0;
-    color: #666;
+    color: #666
 }
 
 .my_account1FooterFoot ul li:nth-child(2) {
     text-align: left;
-    color: #333;
+    color: #333
 }
 
 .my_account1FooterFoot ul li:last-child {
     text-align: left;
-    color: #666;
+    color: #666
 }
 
 .my_account1FooterFoot ul li:nth-child(3) {
@@ -4762,7 +4746,7 @@ font-size: 14px;
 
 .my_account1FooterFoot ul li:nth-child(4) {
     text-align: right;
-    color: #000;
+    color: #000
 }
 
 .my_account1FooterCenter ul li.numColorRed {
@@ -4772,9 +4756,9 @@ font-size: 14px;
 .my_account1FooterCenter ul li.numColorGreen {
     color: #65b23f
 }
-/*签到层*/
+
 .abs_account {
-    position:absolute;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -4794,31 +4778,34 @@ font-size: 14px;
     text-align: center
 }
 
- .abs_account .true_qd div:nth-child(1) {
+.abs_account .true_qd div:nth-child(1) {
     position: absolute;
     top: 197px;
     left: 0;
     width: 100%
 }
 
- .abs_account .true_qd div span {
+.abs_account .true_qd div span {
     font-size: 22px
 }
- .abs_account .true_qd div:nth-child(2) {
+
+.abs_account .true_qd div:nth-child(2) {
     position: absolute;
     top: 236px;
     left: 0;
     width: 100%
 }
+
 .banCard {
-    width: 100%;
+    width: 100%
 }
+
 .banCard .banOuter {
     overflow: hidden;
     margin: 0 auto;
-    width: 100%;
-
+    width: 100%
 }
+
 .navColor {
     color: #fee473 !important
 }
@@ -4826,6 +4813,7 @@ font-size: 14px;
 .sign_on .sign_in .sign_foot {
     padding: 17px 34px
 }
+
 .sign_in_down {
     overflow: hidden;
     height: 40px;
@@ -4833,11 +4821,11 @@ font-size: 14px;
 }
 
 .sign_in_down div {
-    float: left;
+    float: left
 }
 
 .sign_in_down div:nth-child(2) {
-    float: right;
+    float: right
 }
 
 .sign_in .sign_foot .sign_footA .sign_footD {
@@ -4845,30 +4833,30 @@ font-size: 14px;
     border: 1px solid #CCC;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    border-radius: 5px;
+    border-radius: 5px
 }
 
 .sign_on .sign_in .sign_foot .sign_footA .sign_footD input {
     margin: 0 auto;
     width: 300px;
     height: 40px;
-    border: none;
+    border: none
 }
 
 input:focus {
-    outline: 0;
+    outline: 0
 }
 
 .sign_in .sign_foot .sign_footA .sign_footD input {
-    float: right;
+    float: right
 }
 
 .sign_in .sign_foot .sign_footE {
-    overflow: hidden;
+    overflow: hidden
 }
 
 .sign_in .sign_foot .sign_footE .sign_footA, .sign_in .sign_foot .sign_footE .sign_footF {
-    float: left;
+    float: left
 }
 
 .sign_in .sign_foot .sign_footE .sign_footA .sign_footB {
@@ -4885,7 +4873,7 @@ input:focus {
     margin: 0 auto;
     width: 235px;
     height: 40px;
-    border: none;
+    border: none
 }
 
 .sign_in .sign_foot .sign_footE .sign_footF {
@@ -4901,18 +4889,17 @@ input:focus {
 }
 
 .sign_phone {
-    background: url(../images/sign_n.jpg) no-repeat;
+    background: url(../images/sign_n.jpg) no-repeat
 }
 
 .sign_pass {
-    background: url(../images/sign_o.png) no-repeat;
+    background: url(../images/sign_o.png) no-repeat
 }
 
 .trueName {
     position: fixed;
     top: 0;
     left: 0;
-    /*display: none;*/
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, .3)
@@ -4975,7 +4962,7 @@ input:focus {
     width: 256px;
     height: 33px;
     border: none;
-    font-size: 16px;
+    font-size: 16px
 }
 
 input:focus {
@@ -5020,8 +5007,6 @@ input:focus {
     background: #f4b942
 }
 
-
-
 .password .passwordFoot span {
     color: #F77F96
 }
@@ -5044,8 +5029,7 @@ input:focus {
 .password .passwordFoot .passwordFootA div input {
     height: 40px;
     outline: 0;
-    border: none;
-
+    border: none
 }
 
 input:focus {
@@ -5061,7 +5045,7 @@ input:focus {
     text-align: right;
     line-height: 42px;
     color: #333;
-    font-size: 18px;
+    font-size: 18px
 }
 
 .password .passwordFoot .passwordFootA .passwordFootC {
@@ -5080,8 +5064,7 @@ input:focus {
 .password .passwordFoot .passwordFootA .passwordFootD input {
     width: 240px;
     height: 40px;
-    font-size: 18px;
-
+    font-size: 18px
 }
 
 .password .passwordFoot .passwordFootA .passwordFootE {
@@ -5096,7 +5079,7 @@ input:focus {
 .password .passwordFoot .passwordFootA .passwordFootE input {
     width: 140px;
     height: 40px;
-    font-size: 18px;
+    font-size: 18px
 }
 
 .password .passwordFoot .passwordFootA .passwordFootF {
@@ -5125,8 +5108,6 @@ input:focus {
     display: block
 }
 
-
-
 .password #trueI, .password #worUesr {
     position: absolute;
     display: none;
@@ -5147,10 +5128,9 @@ input:focus {
     left: 490px
 }
 
-.block{
-    display: block;
+.block {
+    display: block
 }
-
 
 .aboutView {
     position: fixed;
@@ -5159,103 +5139,101 @@ input:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .5)
 }
 
 .aboutView .aboutViewCenter {
     position: relative;
     top: 50%;
-
     margin: -367.5px auto 0;
-    padding: 25px 20px;;
+    padding: 25px 20px;
     width: 700px;
     height: 735px;
-    background: #ffffff;;
+    background: #fff
 }
 
 .aboutView .aboutViewCenter .aboutViewFoot div:nth-child(1) {
     margin-bottom: 20px;
     height: 337px;
-    width: 100%;;
+    width: 100%
 }
 
 .aboutView .aboutViewCenter img {
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 
 .aboutView .aboutViewCenter .aboutViewFoot div:nth-child(2) {
     height: 26px;
     line-height: 26px;
     font-size: 18px;
-    color: #333;
+    color: #333
 }
 
 .aboutView .aboutViewCenter .aboutViewFoot div:nth-child(3) {
     height: 20px;
     line-height: 20px;
     font-size: 14px;
-    color: #999;
+    color: #999
 }
 
 .aboutView .aboutViewCenter .aboutViewFoot div:nth-child(4) {
     margin-top: 20px;
-    height: 92px;;
+    height: 92px;
     line-height: 22px;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis
 }
 
 .aboutView div span {
     display: block;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    color: #cccccc;
+    top: 0;
+    right: 0;
+    color: #ccc;
     width: 25px;
     text-align: center;
     height: 25px;
     cursor: pointer;
-    line-height: 25px;
+    line-height: 25px
 }
 
 .sellMore {
     margin: 0 auto;
     width: 1100px;
-    background: #ffffff;;
+    background: #fff
 }
 
 .sellMore .sellMoreTop {
     width: 1025px;
-    height: 65px;;
+    height: 65px;
     padding: 20px 38px 17px 40px;
-    border-bottom: 1px dashed #ccc;;
+    border-bottom: 1px dashed #ccc
 }
 
 .sellMore .sellMoreTop div:nth-child(1) {
     height: 45px;
     line-height: 45px;
-    text-align: left;
-
+    text-align: left
 }
 
 .sellMore .sellMoreTop div:nth-child(2) {
-    color: #999999;
-    clear: both;
+    color: #999;
+    clear: both
 }
 
 .sellMoreFoot {
-    padding: 50px 35px;;
+    padding: 50px 35px;
     height: 275px;
-    width: 1000px;;;
+    width: 1000px
 }
 
 .sellMoreFootA {
     width: 1050px;
-    text-align: left;
+    text-align: left
 }
 
 .sellMoreFootA1 {
-    width: 440px;;;
+    width: 440px
 }
 
 .sellMoreFootA2 {
@@ -5263,55 +5241,54 @@ input:focus {
 }
 
 .sellMoreFootA3 {
-    width: 140px;
+    width: 140px
 }
 
-.sellMoreFootA1 div:nth-child(1),
-.sellMoreFootA2 div:nth-child(1),
-.sellMoreFootA3 div:nth-child(1) {
+.sellMoreFootA1 div:nth-child(1), .sellMoreFootA2 div:nth-child(1), .sellMoreFootA3 div:nth-child(1) {
     height: 50px;
-    line-height: 50px;
+    line-height: 50px
 }
 
-.sellMoreFootA1 div:nth-child(2),
-.sellMoreFootA2 div:nth-child(2),
-.sellMoreFootA3 div:nth-child(2) {
-    line-height: 110px;
+.sellMoreFootA1 div:nth-child(2), .sellMoreFootA2 div:nth-child(2), .sellMoreFootA3 div:nth-child(2) {
+    line-height: 110px
 }
 
 .sellMoreFootA div span {
-    font-size: 30px;;
+    font-size: 30px
 }
-.registerOk{
-    height: 540px;;
+
+.registerOk {
+    height: 540px
 }
-.registerOk img{
+
+.registerOk img {
     display: block;
-    margin:0 auto;
-    margin-top: 150px;
+    margin: 0 auto;
+    margin-top: 150px
 }
-.height75{
+
+.height75 {
     height: 75px;
-    line-height: 75px;
+    line-height: 75px
 }
 
-
-
-.height260px{
+.height260px {
     height: 260px;
-    line-height: 260px;;;
+    line-height: 260px
 }
-.payMoney {
 
+.payMoney {
     margin: 0 auto;
     background: #f9f9f9
 }
-.padding_lr105{
-    padding:0 105px;
+
+.padding_lr105 {
+    padding: 0 105px
 }
-.payMoneyT, .payMoneyF {
+
+.payMoneyF, .payMoneyT {
     width: 875px;
-    background: white;
+    background: #fff
 }
 
 .payMoneyT {
@@ -5319,36 +5296,36 @@ input:focus {
     height: 100px;
     text-align: center;
     line-height: 55px;
-    font-size: 20px;
+    font-size: 20px
 }
 
 .payMoneyT p:nth-child(1) {
     height: 40px;
     font-size: 20px;
-    color: #333;
+    color: #333
 }
 
 .payMoneyT p:nth-child(2) {
     height: 60px;
     color: #666;
-    font-size: 18px;
+    font-size: 18px
 }
 
 .payMoneyFFoot {
-    padding: 60px 295px;;
+    padding: 60px 295px;
     margin-bottom: 60px;
-    height: 345px;;
+    height: 345px
 }
 
 .payMoneyF .payMoneyFTop {
     height: 140px;
-    border-bottom: 1px dashed #CCCCCC;
+    border-bottom: 1px dashed #CCC
 }
 
 .payMoneyF .payMoneyFTop .payMoneyFTopA {
     height: 70px;
     line-height: 70px;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .payMoney .payMoneyFTop .payMoneyFTopA div {
@@ -5358,43 +5335,45 @@ input:focus {
     float: left;
     width: 26px;
     height: 22px;
-    background: url("../images/yellowT.png") no-repeat;
+    background: url(../images/yellowT.png) no-repeat
 }
 
 .payMoney .payMoneyFTop .payMoneyFTopA p {
     float: left;
     text-align: left;
-    color: #666666;
+    color: #666
 }
 
 .payMoney .payMoneyFTop .payMoneyFTopA span {
     color: #333;
-    font-size: 22px;
+    font-size: 22px
 }
 
 .payMoney .payMoneyFTop .payMoneyFTopB {
     height: 70px;
     text-align: right;
     line-height: 100px;
-    color: #333;
+    color: #333
 }
 
 .payMoney .payMoneyFTop .payMoneyFTopB span {
     color: #F77F96;
-    font-size: 28px;
+    font-size: 28px
 }
 
 .payMoneyF .payMoneyFFoot {
-    height: 85px;
+    height: 85px
 }
-.payMoney .payMoneyFFoot a{
-    color: #66CCFF
+
+.payMoney .payMoneyFFoot a {
+    color: #6CF
 }
+
 .payMoneyF .payMoneyFFoot .payMoneyFFootA {
     height: 40px;
     line-height: 40px;
     overflow: hidden;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .payMoney .payMoneyFFoot .payMoneyFFootA div {
@@ -5403,28 +5382,30 @@ input:focus {
     margin-right: 6px;
     float: left;
     width: 26px;
-    height: 22px;
+    height: 22px
+}
 
+.color6ed {
+    color: #6ed3d6
 }
-.color6ed{
-    color: #6ed3d6;
+
+.f600 {
+    font-weight: 600
 }
-.f600{
-    font-weight: 600;
-}
+
 .payMoney .payMoneyFFootB div {
     text-align: center;
     width: 290px;
     height: 40px;
     line-height: 40px;
-    font-size: 16px;;
+    font-size: 16px;
     background: #F77F96;
     border-radius: 5px;
-    color: white;;
+    color: #fff
 }
 
 .payMoney .payMoneyF .bankCard ul {
-    overflow: hidden;
+    overflow: hidden
 }
 
 .payMoney .payMoneyF .bankCard ul li {
@@ -5433,53 +5414,56 @@ input:focus {
     float: left;
     width: 200px;
     height: 60px;
-    background: url("../images/bankK.png") no-repeat;
-    background-position: 5px;;;
+    background: url(../images/bankK.png) no-repeat;
+    background-position: 5px
 }
 
 .payMoney .payMoneyF .bankCard ul li:last-child {
-    margin-right: 0;
+    margin-right: 0
 }
-.payMoney .payMoneyF .bankCard ul li .bankImg{
+
+.payMoney .payMoneyF .bankCard ul li .bankImg {
     position: absolute;
     top: 19px;
-    left: 43px;
-
+    left: 43px
 }
-.payMoney .payMoneyF .bankCard ul li .bankSco{
+
+.payMoney .payMoneyF .bankCard ul li .bankSco {
     position: absolute;
     top: 22px;
     left: 20px
 }
-.payMoney .payMoneyF .bankCard ul li .chickIco{
+
+.payMoney .payMoneyF .bankCard ul li .chickIco {
     position: absolute;
     top: 18px;
     left: 24px
 }
-.payMoney .payMoneyF .bankCard p{
+
+.payMoney .payMoneyF .bankCard p {
     padding-left: 3px;
     height: 50px;
     line-height: 45px;
-    color: #999999;
+    color: #999
 }
-.payMoney .payMoneyF .bankCard ul li.bgImg{
-    background: url("../images/bgBankImg.png") no-repeat;
-    background-position-y: 5px;
+
+.payMoney .payMoneyF .bankCard ul li.bgImg {
+    background: url(../images/bgBankImg.png) no-repeat;
+    background-position-y: 5px
 }
-.line-height60{
-    line-height: 60px;
+
+.line-height60 {
+    line-height: 60px
 }
-/*安全保障*/
+
 .safeNum {
     width: 504px;
     margin: 100px 10px 0;
-    height: 295px;
-
+    height: 295px
 }
 
 .safeNum p:nth-child(2) {
-    margin: 10px 0 35px;
-
+    margin: 10px 0 35px
 }
 
 .safeNum p:last-child {
@@ -5489,298 +5473,329 @@ input:focus {
     font-family: "Microsoft YaHei"
 }
 
-
-
 .safeImg img {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 0
 }
 
 .safe1bg {
     width: 1100px;
     margin: 0 auto;
-
-    height: 405px;;
-    background: url("../images/safe1.png") no-repeat;
+    height: 405px;
+    background: url(../images/safe1.png) no-repeat;
     background-position: 100% 100%;
-    -ms-background-position: 100% 100%;
+    -ms-background-position: 100% 100%
 }
 
 .safe2bg {
     width: 1100px;
     margin: 0 auto;
-
-    height: 405px;;
-    background: url("../images/safe2.png") no-repeat;
+    height: 405px;
+    background: url(../images/safe2.png) no-repeat;
     background-position: 0 100%;
-    -ms-background-position: 0 100%;
+    -ms-background-position: 0 100%
 }
 
 .safe3bg {
     width: 1100px;
     margin: 0 auto;
-
-    height: 405px;;
-    background: url("../images/safe3.png") no-repeat;
+    height: 405px;
+    background: url(../images/safe3.png) no-repeat;
     background-position: 100% 100%;
-    -ms-background-position: 100% 100%;
+    -ms-background-position: 100% 100%
 }
 
 .safe4bg {
     width: 1100px;
     margin: 0 auto;
-
-    height: 405px;;
-    background: url("../images/safe4.png") no-repeat;
+    height: 405px;
+    background: url(../images/safe4.png) no-repeat;
     background-position: 0 100%;
-    -ms-background-position: 0 100%;
+    -ms-background-position: 0 100%
 }
 
 .safe5bg {
     overflow: hidden;
     width: 1100px;
     margin: 0 auto;
-
-    height: 405px;;
-    background: url("../images/safe5.png") no-repeat;
+    height: 405px;
+    background: url(../images/safe5.png) no-repeat;
     background-position: 100% 110%;
-    -ms-background-position: 100% 110%;
+    -ms-background-position: 100% 110%
 }
 
 .white100 {
     width: 100%;
-    background: #ffffff;
+    background: #fff
 }
 
 .wheat100 {
     width: 100%;
-    background: #f9f9f9;
+    background: #f9f9f9
 }
 
-/*圆形层*/
 .bfb_yuan {
     position: relative;
-    margin:0 auto;
+    margin: 0 auto;
     border-radius: 50%;
-    overflow: hidden;
-
+    overflow: hidden
 }
 
-.border_y_grey{
-    border:2px solid #eee;
+.border_y_grey {
+    border: 2px solid #eee
 }
+
 .bfb_yuan div {
-    position: absolute;
+    position: absolute
 }
-.bfb_yuan div:nth-child(1) {
-    width:100%;
-    height:100%;
 
+.bfb_yuan div:nth-child(1) {
+    width: 100%;
+    height: 100%
 }
-.bg_cdf{
-    background: #CDF0F5;
+
+.bg_cdf {
+    background: #CDF0F5
 }
+
 .bfb_yuan div:nth-child(2) {
     width: 100%;
-    background: rgba(255, 255, 255,1);
+    background: rgba(255, 255, 255, 1)
 }
 
 .bfb_yuan div:nth-child(3) {
     position: absolute;
-    border-radius: 50%;
-
+    border-radius: 50%
 }
 
 .bfb_yuan div:nth-child(4) {
-
     width: 100%;
-    background: rgba(255, 255, 255, .4);
+    background: rgba(255, 255, 255, .4)
 }
 
 .bfb_yuan div:nth-child(5) {
     width: 100%;
     height: 100%;
     color: #fff;
-    text-align: center;
-
-
+    text-align: center
 }
 
-.bfb_yuan .height_yuan {
-
-}
-.wh100{
+.wh100 {
     width: 100px;
-    height: 100px;;;;
-}
-.wh104{
-    width: 104px;
-    height: 104px;;;
-}
-.wh88{
-    width: 88px;
-    height: 88px;;;;
-}
-.wh96{
-    width: 96px;
-    height: 96px;;;
-}
-.wh92{
-    width: 92px;
-    height: 92px;;;
-}
-.line-height100{
-    line-height: 100px;
-}
-.font_46{
-    font-size: 46px;
-}
-.mar_top65{
-    margin-top: 65px
-;
+    height: 100px
 }
 
-.wh21{
+.wh104 {
+    width: 104px;
+    height: 104px
+}
+
+.wh88 {
+    width: 88px;
+    height: 88px
+}
+
+.wh96 {
+    width: 96px;
+    height: 96px
+}
+
+.wh92 {
+    width: 92px;
+    height: 92px
+}
+
+.line-height100 {
+    line-height: 100px
+}
+
+.font_46 {
+    font-size: 46px
+}
+
+.mar_top65 {
+    margin-top: 65px
+}
+
+.wh21 {
     width: 25px;
-    height: 21px;;;
+    height: 21px
 }
-.time_fast{
-}
-/*方形进度条*/
+
 .bfb_fang {
     position: relative;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .bfb_fang div {
-    position: absolute;
+    position: absolute
 }
 
 .bfb_fang div:nth-child(1) {
     width: 100%;
-    height: 100%;
-
+    height: 100%
 }
 
 .bg_cdf {
-    background: #CDF0F4;
+    background: #CDF0F4
 }
 
 .bfb_fang div:nth-child(2) {
-    height: 100%;
-
+    height: 100%
 }
 
 .bfb_fang div:nth-child(3) {
     position: absolute;
     top: 4px;
     left: 4px;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .bfb_fang div:nth-child(4) {
-    height: 100%;
-
+    height: 100%
 }
 
 .bfb_fang div:nth-child(5) {
     width: 100%;
     height: 100%;
     color: #fff;
-    text-align: center;
+    text-align: center
 }
+
 .bfb_fang div:last-child {
     width: 100%;
     height: 100%;
     text-align: center;
     line-height: 58px;
     font-size: 18px;
-    color: #fff;
+    color: #fff
 }
+
 .bfb_fang span {
     display: block;
     position: absolute;
     top: -4px;
-    left: -4px;
-
+    left: -4px
 }
 
 .bfb_fang span span {
     top: 0;
     left: 0;
-
-    height: 100%;
+    height: 100%
 }
 
 .bg_6dd {
-    background: #6ddcd7;;
+    background: #6ddcd7
 }
 
 .fang_212 {
     width: 212px;
-    height: 50px;;;
+    height: 50px
 }
 
 .fang_222 {
     width: 222px;
-    height: 58px;
-
+    height: 58px
 }
 
-.height145{
+.height145 {
     height: 145px;
-line-height: 75px;
+    line-height: 75px
 }
-.bg_6ed{
-    background: #6ED3D6;
+
+.bg_6ed {
+    background: #6ED3D6
 }
-.tl5{
+
+.tl5 {
     top: 5px;
-    left: 5px;;;
+    left: 5px
 }
+
 .tl4 {
     top: 4px;
-    left: 4px;
-}
-.font_22{
-    font-size: 22px;
+    left: 4px
 }
 
-.mar_top30{
-    margin-top: 30px;
+.font_22 {
+    font-size: 22px
 }
-.width119{
-    width:119px;
-}
-.pass_input{
-    padding-left: 10px;
-    width: 250px;
-    height: 40px;
-    border: 1px solid #EEEEEE;
-border-radius: 5px;line-height: 40px;
-}
-.pass_input input{
-    border:none;
-    outline: none;
 
-    height: 38px;
-    width: 247px;
-line-height: 38px;
-font-size: 18px;
+.mar_top30 {
+    margin-top: 30px
+}
 
+blockquote, button, code, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, p, pre, td, textarea, th {
+    margin: 0;
+    padding: 0
 }
-.pass_input input:focus{
-    border: none;
-    outline: none;
+
+fieldset, img {
+    border: 0
 }
-.pad_r25{
-    padding:0 25px 0 0!important;
+
+:focus {
+    outline: 0
 }
-.mar_top20{
-    margin-top: 20px;
+
+address, cite, code, ctoolion, dfn, em, optgroup, strong, th, var {
+    font-style: normal;
+    font-weight: 400
 }
-.pass_height{
-    margin:-170px 0 0 -208px!important;
-    height: 314px!important;;
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal
+}
+
+button, input, optgroup, option, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+code, kbd, samp, tt {
+    font-size: 100%
+}
+
+body {
+    line-height: 1.5
+}
+
+ol, ul {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+ctoolion, th {
+    text-align: left
+}
+
+sub, sup {
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+:link, :visited, ins {
+    text-decoration: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+    content: '';
+    content: none
 }

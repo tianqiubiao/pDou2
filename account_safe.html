@@ -29,13 +29,13 @@
 <!--导航-->
 <div class="second">
     <div class="secondTop row">
-        <div class="left"><img src="public/images/h1.png" alt="P兜理财"></div>
+        <div class="left"><h1 data-href="index.html"><img src="public/images/h1.png" alt="P兜理财"></h1></div>
         <div id="banCard0" class="left">
             <div class=" pointer" data-href="index.html">&nbsp;&nbsp;首页</div>
             <div class=" pointer" data-href="sellMoney.html">定期理财</div>
             <div class=" pointer" data-href="tarenzhuanrang.html">他人转让</div>
             <div class=" pointer" data-href="safe.html">安全保障</div>
-            <div class=" pointer" data-href="about_ous.html">关于我们</div>
+            <div class=" pointer" data-href="about-team.html">关于我们</div>
         </div>
     </div>
 </div>
@@ -69,28 +69,22 @@
                     <ul>
                         <li><span class="account_renzhengYes"></span> &nbsp;2 登录密码</li>
                         <li>登录P兜理财平台的账号密码</li>
-                        <li><a href="" class="link ">修改</a></li>
+                        <li class="sign" data-type="sign_in"><a href="javascript:;" class="link deco " >修改</a></li>
                     </ul>
                     <ul>
                         <li><span class="account_renzhengNo"></span>&nbsp; 3 实名认证</li>
                         <li>保障账户安全</li>
-                        <li><a href="" class="link ">去认证</a></li>
+                        <li class="sign" data-type="name_in"><a href="javascript:;" class="link deco " >去认证</a></li>
                     </ul>
                     <ul>
                         <li><span class="account_renzhengNo"></span> &nbsp;4 绑定银行卡</li>
                         <li>提现仅可至您所绑定的银行卡账户中</li>
-                        <li><a href="" class="link ">绑定</a></li>
+                        <li><a href="account_bankcards.html" class="link deco">绑定</a></li>
                     </ul>
                 </div>
-
-
             </div>
-
-
         </div>
     </div>
-
-
 </div>
 <div style="width:100%;" class="oFoot">
     <div class="foot">
@@ -146,9 +140,47 @@
     </div>
 
 </div>
+<div class="sign_on" style="display: none">
+    <div class="sign_in pass_height" style="display: none">
+        <div class="sign_top">修改密码</div>
+        <div class="sign_close"></div>
+        <div class="sign_foot pad_r25 font_18">
+            <div class="sign_footA row">
+                <div class="inline text-right width119 line-height40 mar_top20">原密码:</div>
+                <div class="inline pass_input mar_top20"><input type="password"></div>
+            </div>
+            <div class="sign_footA row">
+                <div class="inline text-right width119 line-height40 mar_top20 ">新密码:</div>
+                <div class="inline pass_input mar_top20"><input type="password"></div>
+            </div>
+            <div class="sign_footE row">
+                <div class="inline text-right width119 line-height40 mar_top20 ">确认新密码:</div>
+                <div class="inline pass_input mar_top20"><input type="password"></div>
+            </div>
+        </div>
+        <div class="span80 font_25 btn yelBtnBG mar_top20">确认修改</div>
+    </div>
+
+    <div class="name_in" style="display: none">
+        <div class="sign_top">实名认证</div>
+        <div class="sign_close"></div>
+        <div class="trueNameFoot">
+            <div class="trueNameA">
+                <div>真实姓名：</div>
+                <div><input type="text"></div>
+            </div>
+            <div class="trueNameA">
+                <div>身份证号：</div>
+                <div><input type="text"></div>
+            </div>
+            <div class="sign_down">立即认证</div>
+        </div>
+
+    </div>
+</div>
 
 <script src="public/js/jquery.min.js"></script>
 <script src="public/js/app.js"></script>
-
+>
 </body>
 </html>

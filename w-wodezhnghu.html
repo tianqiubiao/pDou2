@@ -29,13 +29,15 @@
 <!--导航-->
 <div class="second">
     <div class="secondTop row">
-        <div class="left"><img src="public/images/h1.png" alt="P兜理财"></div>
+        <div class="left">
+            <h1  data-href="index.html"><img src="public/images/h1.png" alt="P兜理财"></h1>
+        </div>
         <div id="banCard0" class="left">
             <div class=" pointer" data-href="index.html">&nbsp;&nbsp;首页</div>
             <div class=" pointer" data-href="sellMoney.html">定期理财</div>
             <div class=" pointer" data-href="tarenzhuanrang.html">他人转让</div>
             <div class=" pointer" data-href="safe.html">安全保障</div>
-            <div class=" pointer" data-href="about_ous.html">关于我们</div>
+            <div class="pointer" data-href="about-team.html">关于我们</div>
         </div>
     </div>
 </div>
@@ -84,8 +86,8 @@
                                     提现冻结：<span>100.00</span>
                                 </div>
                                 <div class="my_account1TopF">
-                                    <div>充值</div>
-                                    <div>提现</div>
+                                    <div data-href="my_accountCz.html">充值</div>
+                                    <div data-href="w-accounttixan2.html">提现</div>
                                 </div>
                             </div>
                             <!--右边投资-->
@@ -103,7 +105,7 @@
                                     </div>
                                     <div class="my_account1TopZ">
                                         <div class="my_account1Z1">
-                                            在投活动本金 <a href="">获取更多&gt;</a>
+                                            在投活动本金 <a href="w-wodebenjn.html">获取更多&gt;</a>
                                         </div>
                                         <div class="my_account1Z2">
                                             10,000.00
@@ -121,7 +123,7 @@
                     </div>
                     <!--底部交易记录-->
                     <div class="my_account1Footer">
-                        <div class="my_account1FooterNav">近期交易明细&nbsp;&nbsp;&nbsp;<a href=" ">查看更多&gt;</a></div>
+                        <div class="my_account1FooterNav">近期交易明细&nbsp;&nbsp;&nbsp;<a href="w-accountjiaoyijilu.html">查看更多&gt;</a></div>
                         <!--交易列表-->
 
                         <div class="my_account1FooterCenter">
@@ -395,13 +397,7 @@
             </div>
 
 
-        </div>
-    </div>
-    <!--遮罩层-->
-    <div class="abs_account" id="my_account_qd" style="display: none">
-        <div class="true_qd">
-            <div>签到成功!</div>
-            <div>今日签到金额&nbsp;<span>0.00</span>&nbsp;元</div>
+
         </div>
     </div>
 </div>
@@ -459,39 +455,33 @@
     </div>
 
 </div>
+<!--遮罩层-->
+<div class="abs_account" id="my_account_qd" style="display: none">
+    <div class="true_qd">
+        <div>签到成功!</div>
+        <div>今日签到金额&nbsp;<span>0.00</span>&nbsp;元</div>
+    </div>
+</div>
 <script src="public/js/jquery.min.js"></script>
 <script src="public/js/app.js"></script>
 <script type="text/javascript">
-    $('#true_qd').click(function () {
-
-                            var boole = document.getElementById('true_qd');
-                            if (!boole.bool) {
-                                boole.setAttribute('bool', 'true');
-                            }
-
-                            if (!!(boole.bool = "true")) {
-                                boole.setAttribute('bool', 'false');
-                                $(this).text('已签到');
-                                $(this).attr("class", 'noqd')
-                                $('#my_account_qd').css('display', 'block');
-
-                                accountQianDao();
-                                $('#true_qd').unbind('click');
-                                return;
-                            }
-
-    })
-    function accountQianDao() {
-        var timer = window.setTimeout(function () {
-                                          $('#my_account01Top').css('display', 'none');
-                                          $('#my_account01Foot').css('display', 'block');
-                                          $('#my_account_qd').css('display', 'none');
-                                          window.location.href = 'account_qdxiangqing.html'
-                                          window.clearTimeout(timer);
-                                          accountQianDao = null;
-                                      }, 3000)
-    }
-
+//    $('#true_qd').click(function () {
+//        console.log('1');
+//        $(this).text('已签到');
+//        $(this).attr("class", 'noqd');
+//        $('#my_account_qd').css('display', 'block');
+//
+//        accountQianDao();
+//        $('#true_qd').unbind('click');
+//    });
+//    function accountQianDao() {
+//        var timer = window.setTimeout(function () {
+//            $('#my_account_qd').css('display', 'none');
+//            window.location.href='account_qdxiangqing.html';
+////            window.clearTimeout(timer);
+////            accountQianDao = null;
+//        }, 3000)
+//    }
 </script>
 </body>
 </html>

@@ -82,49 +82,36 @@ function fyList(a, b) {
 
 /*签到*/
 $('#true_qd').click(function () {
-                        var boole = document.getElementById('bool');
-                        if (!boole.bool) {
-                            boole.setAttribute('bool', 'true');
-                        }
-
-                        console.log(boole.bool)
-                        if (!!(boole.bool = "true")) {
-                            boole.setAttribute('bool', 'false');
+console.log('1')
                             $(this).text('已签到');
                             $(this).attr("class", 'noqd')
                             $('#my_account_qd').css('display', 'block');
 
                             accountQianDao();
                             $('#true_qd').unbind('click');
-                            return;
-                        }
-
-                    }
-)
+})
 function accountQianDao() {
     var timer = window.setTimeout(function () {
-                                      $('#my_account01Top').css('display', 'none');
-                                      $('#my_account01Foot').css('display', 'block');
-                                      $('#my_account_qd').css('display', 'none');
-
+        $('#my_account_qd').css('display', 'none');
+        window.location.href='account_qdxiangqing.html';
                                       window.clearTimeout(timer);
                                       accountQianDao = null;
-                                  }, 3000
-    )
+                                  }, 3000)
 }
-/*弹出登录框*/
-
+/*弹出层*/
+var a=null;
 $('.sign').click(function () {
-                     if ($(this).text() === '登录' || '已有账号？马上登录') {
-                         $('.sign_on').css('display', 'block')
-                     }
-                 }
-)
-/*弹出框*/
+    a=this.getAttribute('data-type');
+    $('.sign_on').css('display', 'block');
+    $('.sign_on').find('.'+a).css('display','block')
+
+})
+/*关闭弹出层*/
 $('.sign_close').click(function (e) {
-                           $('.sign_on').css('display', 'none')
-                       }
-)
+    $('.sign_on').css('display', 'none');
+    $('.'+a).css('display','none');
+    a=null;
+});
 
 /*注册事件*/
 $('.spanImg_seco').click(function () {
