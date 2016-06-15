@@ -8,7 +8,7 @@
 
 </head>
 <body class="bgwhite">
-<div class="top" style="display: none">
+<div class="top" style="">
     <div class="topNav">
         <ul class="topNavLeft">
             <li class="to">客服电话: &nbsp;<a href="tel:400-859-9090">400-859-9090</a></li>
@@ -19,30 +19,31 @@
             <li class="to1">P兜APP</li>
             <li class="topNavPad">
                 <ul class="topNavPeople">
-                    <li class="id_zh to2 pointer">注册<span><p>领活动本金</p></span></li>
-                    <li class="sign pointer">登录</li>
+                    <li class="id_zh to2 pointer" data-href="register.html">注册<span><p>领活动本金</p></span></li>
+                    <li class="sign pointer" data-type="sign_in">登录</li>
                 </ul>
             </li>
-            <li class="id_helpIng pointer">帮助中心</li>
+            <li class="id_helpIng pointer" data-href="helpIng.html" data-target="_blank">帮助中心</li>
         </ul>
     </div>
 </div>
-<div class="top" style="">
+<div class="top" style="display: none">
     <div class="topNav row">
         <ul class="topNavLeft">
             <li class="to">客服电话: &nbsp;<a href="tel:400-859-9090">400-859-9090</a></li>
             <li class="wx">客服微信 <img src="public/images/weixin.png" alt=""
                                      class="w"></li>
         </ul>
-        <ul class="right topNavRight" >
+        <ul class="right topNavRight">
             <li class="to1">P兜APP</li>
             <li class="uesr_name">
-                <div id="account_in"><span>&nbsp;</span>&nbsp;<span>我的账户</span>&nbsp;<span>[137****000]</span></div>
+                <div id="account_in"><span>&nbsp;</span>&nbsp;<span>我的账户</span>&nbsp;<span id="uesr_account">[137****000]</span>
+                </div>
             </li>
             <li class="afterDis color_pink">
                 <a href="w-wodexiaoxi.html" class="color_pink">消息</a>
             </li>
-            <li>退出</li>
+            <li class="clearCook">退出</li>
             <li class="id_helpIng pointer"><a href="helpIng.html" class="color6" target="_blank">帮助中心</a></li>
         </ul>
     </div>
@@ -50,7 +51,7 @@
 <!--导航-->
 <div class="second">
     <div class="secondTop row">
-        <div class="left"><h1  data-href="index.html"><img src="public/images/h1.png" alt="P兜理财"></h1></div>
+        <div class="left"><h1 data-href="index.html"><img src="public/images/h1.png" alt="P兜理财"></h1></div>
         <div id="banCard0" class="left">
             <div class=" pointer" data-href="index.html">&nbsp;&nbsp;首页</div>
             <div class=" pointer" data-href="sellMoney.html">定期理财</div>
@@ -87,22 +88,49 @@
 
 </div>
 <div class="sign_on" style="display: none">
-    <div class="messgess">
+    <div class="messgess" style="display: none">
         <div class="messgess_top">短信验证</div>
         <div class="sign_close"></div>
         <div class="messgess_foot">
             <div class="messgess_foot_top">验证码已发送至您的手机，2分钟内验证有效。</div>
             <div class="messgess_footA" style="    margin: 15px 0;">
-                <div  class="messgess_footAL" style="width: 93px;">真实姓名：</div>
+                <div class="messgess_footAL" style="width: 93px;">真实姓名：</div>
                 <div class="messgess_footAR" style="    width: 250px;"><input type="text"></div>
             </div>
             <div class="messgess_footA">
-                <div  class="messgess_footAL">短信验证码：</div>
+                <div class="messgess_footAL">短信验证码：</div>
                 <div class="messgess_footAR"><input type="text"></div>
             </div>
             <div class="messgess_footB">
                 <div class="messgess_footBL">确 认</div>
                 <div class="messgess_footBR">重新获取</div>
+            </div>
+        </div>
+    </div>
+    <div class="sign_in" style="display: none">
+        <div class="sign_top">登录</div>
+        <div class="sign_close"></div>
+        <div class="sign_foot">
+            <div class="sign_footA">
+                <div class="sign_footB sign_footD sign_phone"><input type="tel" placeholder="手机号" class="a1"></div>
+                <div class="sign_footC"></div>
+            </div>
+            <div class="sign_footA">
+                <div class="sign_footB sign_footD sign_footE sign_pass"><input type="password" placeholder="密码"
+                                                                               class="a2"></div>
+                <div class="sign_footC">您输入的密码有误</div>
+            </div>
+            <div class="sign_footE">
+                <div class="sign_footA">
+                    <div class="sign_footB"><input type="text" placeholder="不区分大小写"></div>
+                    <div class="sign_fooC">验证码错误</div>
+                </div>
+                <div class="sign_footF"></div>
+            </div>
+            <div class="sign_down sign_up">登录</div>
+            <div class="sign_in_down">
+                <div class="redNum" data-href="register.html">注册领活动本金</div>
+                <div class="queNum" data-href="zhoahuimima.html">忘记密码</div>
             </div>
         </div>
     </div>
@@ -163,5 +191,30 @@
 </div>
 <script src="public/js/jquery.min.js"></script>
 <script src="public/js/app.js"></script>
+<script src="public/js/cookie.js"></script>
+<script src="public/js/md5.js"></script>
+<script>
+    var tel = $('.a1');
+    var pas = $('.a2');
+    var sign_up = $('.sign_up');
+    sign_up.click(function () {
+//                      var cookie = document.cookie;
+//                      cookie = {"name": tel.val(), "value": b64_md5(pas.val())};
+//                      var tim = setCookie(tel.val(),b64_md5( pas.val()), '86400');
+        setCook(tel,pas)
+                      $('.top').get(0).style.display = 'none';
+                      $('.top').get(1).style.display = 'block';
+        $('.sign_on').css('display', 'none');
+        $('.' + a).css('display', 'none');
+        a = null;
+                      $('#uesr_account').text(function () {
+                                                  return setCook(tel,pas).name;
+                                              })
+                      console.log(setCook(tel,pas).name)
+        console.log(b64_md5(setCook(tel,pas).value))
+                  })
+
+
+</script>
 </body>
 </html>

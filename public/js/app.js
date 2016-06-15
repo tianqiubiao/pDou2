@@ -7,7 +7,10 @@
 
 var regex = /[\da-zA-Z]{6,20}/
 //var phoneReg = /^(13[0-9]|14[0-9]|15[0-9]|18[0-9]|17[0-9])\d{8}$/;
-var phoneReg=/^(1[3-5|7-8]\d)\d{8}$/;
+var phoneReg = /^(1[3-5|7-8]\d)\d{8}$/;
+var a = /^((13\d)|(14[4,7])|(15[^4,\D])|(17[0,6,7,8])|(18\d))(\d{8})$/;
+var p = !/^([^\s'‘’]{6,12})$/;
+
 /*
  * a:点击id
  * b:显示父级id
@@ -82,36 +85,37 @@ function fyList(a, b) {
 
 /*签到*/
 $('#true_qd').click(function () {
-console.log('1')
-                            $(this).text('已签到');
-                            $(this).attr("class", 'noqd')
-                            $('#my_account_qd').css('display', 'block');
-
-                            accountQianDao();
-                            $('#true_qd').unbind('click');
-})
+                        console.log('1')
+                        $(this).text('已签到');
+                        $(this).attr("class", 'noqd')
+                        $('#my_account_qd').css('display', 'block');
+                        accountQianDao();
+                        $('#true_qd').unbind('click');
+                    })
 function accountQianDao() {
     var timer = window.setTimeout(function () {
-        $('#my_account_qd').css('display', 'none');
-        window.location.href='account_qdxiangqing.html';
+                                      $('#my_account_qd').css('display', 'none');
+                                      window.location.href = 'account_qdxiangqing.html';
                                       window.clearTimeout(timer);
                                       accountQianDao = null;
                                   }, 3000)
 }
 /*弹出层*/
-var a=null;
+var a = null;
 $('.sign').click(function () {
-    a=this.getAttribute('data-type');
-    $('.sign_on').css('display', 'block');
-    $('.sign_on').find('.'+a).css('display','block')
+                     a = this.getAttribute('data-type');
+                     $('.sign_on').css('display', 'block');
+                     $('.sign_on').find('.' + a).css('display', 'block')
 
-})
+                 }
+)
 /*关闭弹出层*/
 $('.sign_close').click(function (e) {
-    $('.sign_on').css('display', 'none');
-    $('.'+a).css('display','none');
-    a=null;
-});
+                           $('.sign_on').css('display', 'none');
+                           $('.' + a).css('display', 'none');
+                           a = null;
+                       }
+);
 
 /*注册事件*/
 $('.spanImg_seco').click(function () {
@@ -123,7 +127,7 @@ $('.spanImg_seco').click(function () {
                                  $('.true_sign_on').click(function () {
                                                               if (that.children('img')[0].alt === "true" && phoneReg.test($('#sing0').val())) {
 
-                                                                  window.location.href='zhucechenggong.html';
+                                                                  window.location.href = 'zhucechenggong.html';
                                                                   //发送请求
                                                               } else {
                                                                   alert('2')
@@ -220,23 +224,23 @@ dataHref()
 /*进度条*/
 function bfb_deco() {
     $('.bfb_yuan').each(function () {
-var that=$(this)
-        var yuanCenter=$(this).find('.yuan_center');
-        var yuanTop=$(this).find('.yuan_top')
-        var bfb_J = $(this).find('.bfb_J').get(0).innerText;
+                            var that = $(this)
+                            var yuanCenter = $(this).find('.yuan_center');
+                            var yuanTop = $(this).find('.yuan_top')
+                            var bfb_J = $(this).find('.bfb_J').get(0).innerText;
                             $(this).find('.height_yuan').css('height', a(bfb_J));
                             function a(bfb_J) {
                                 switch (bfb_J) {
                                     case '已满标':
-                                         border();
-                                        that.find('.bfb_J').css('color','#FFE98D');
+                                        border();
+                                        that.find('.bfb_J').css('color', '#FFE98D');
                                         return '0%';
                                         break;
                                     case '已结束':
-                                        return function(){
-                                           that.css('border','2px solid #eee');
-                                            yuanCenter.css('background','#ccc');
-                                            yuanTop.css('background','#eee')
+                                        return function () {
+                                            that.css('border', '2px solid #eee');
+                                            yuanCenter.css('background', '#ccc');
+                                            yuanTop.css('background', '#eee')
                                             return '0'
                                         };
                                         break;
@@ -246,98 +250,113 @@ var that=$(this)
                                         break;
                                     default:
                                         border();
-                                        return (100- parseInt(bfb_J))+"%";
+                                        return (100 - parseInt(bfb_J)) + "%";
                                         break;
                                 }
-                                function border(){
-                                   that.css('border','2px solid #CDF0F5');
-                                   yuanCenter.css('background','#6ed3d6');
-                                    yuanTop.css('background','#CDF0F5')
+                                function border() {
+                                    that.css('border', '2px solid #CDF0F5');
+                                    yuanCenter.css('background', '#6ed3d6');
+                                    yuanTop.css('background', '#CDF0F5')
 
                                 }
                             }
-    });
-    $('.zr .lcFD').each(function(){
-        var reg= /^(\d||\d+)\/(\d||\d+)(份)$/
-        var bfb_J = $(this).find('.bfb_J').get(0).innerText;
-        var fang=$(this).find('.bfb_fang');
-        var fang_span=$(this).find('.weight_fang');
-        var lcFDF=$(this).find('.lcFDF');
-        var lcFDQ =$(this).find('.lcFDQ');
-        fang_span.css('',a());
-        function a() {
-          if(bfb_J==='已结束'){
-              fang.css('border','2px solid #eee');
-              fang_span.css('background','#ccc');
-              lcFDF.css('display','none');
-              lcFDQ.get(0).className='lcFDQ posrel';
-              fang_span.css({'background':'#ccc','width':'100%'});
-          }else {
-              if(reg.test(bfb_J)){
-                  fang.css('border','2px solid #CDF0F5');
-                  fang_span.css({'background':'#6dd3d7','width':(reg.exec(bfb_J)[1]/reg.exec(bfb_J)[2])*100+'%'});
-              }else {
-                  lcFDF.css('display','none');
-                  lcFDQ.get(0).className='lcFDQ posrel';
-              }
+                        }
+    );
+    $('.zr .lcFD').each(function () {
+                            var reg = /^(\d||\d+)\/(\d||\d+)(份)$/
+                            var bfb_J = $(this).find('.bfb_J').get(0).innerText;
+                            var fang = $(this).find('.bfb_fang');
+                            var fang_span = $(this).find('.weight_fang');
+                            var lcFDF = $(this).find('.lcFDF');
+                            var lcFDQ = $(this).find('.lcFDQ');
+                            fang_span.css('', a());
+                            function a() {
+                                if (bfb_J === '已结束') {
+                                    fang.css('border', '2px solid #eee');
+                                    fang_span.css('background', '#ccc');
+                                    lcFDF.css('display', 'none');
+                                    lcFDQ.get(0).className = 'lcFDQ posrel';
+                                    fang_span.css({'background': '#ccc', 'width': '100%'});
+                                } else {
+                                    if (reg.test(bfb_J)) {
+                                        fang.css('border', '2px solid #CDF0F5');
+                                        fang_span.css({
+                                                          'background': '#6dd3d7',
+                                                          'width': (reg.exec(bfb_J)[1] / reg.exec(bfb_J)[2]) * 100 + '%'
+                                                      }
+                                        );
+                                    } else {
+                                        lcFDF.css('display', 'none');
+                                        lcFDQ.get(0).className = 'lcFDQ posrel';
+                                    }
 
-          }
-        }
-    })
-    $('.moneyCenter .mCLi6').each(function(){
-        var that=$(this);
-        var mcLi7=that.next('.mCLi7');
-        var mcLi7Num=mcLi7.find('p').get(0).innerText;
-        var mcLi6Height=that.find('sellHeight');
+                                }
+                            }
+                        }
+    )
+    $('.moneyCenter .mCLi6').each(function () {
+                                      var that = $(this);
+                                      var mcLi7 = that.next('.mCLi7');
+                                      var mcLi7Num = mcLi7.find('p').get(0).innerText;
+                                      var mcLi6Height = that.find('sellHeight');
 
-        var sell_height_num=that.find('.sellHeightNum').get(0).innerText;
-        that.find('.sellHeight').css('height',function(){
-            switch(mcLi7Num){
-                case '已满标':
-                    mcLi7.addClass('bgYellow');
-                    return '0';
-                break;
-                case '还款中':
-                    mcLi7.addClass('bgGrey');
-                    return '0';
-                break;
-                case '已结束':
-                    mcLi7.addClass('bgGrey');
-                    that.children().first().addClass('bgGrey').removeClass('bgGreen');
-                    return '0';
-                    break;
-                default:
-                    mcLi7.addClass('bgPink');
-                    return (100- parseInt(sell_height_num))+"%";
-                break;
-            }
-        })
-    })
+                                      var sell_height_num = that.find('.sellHeightNum').get(0).innerText;
+                                      that.find('.sellHeight').css('height', function () {
+                                                                       switch (mcLi7Num) {
+                                                                           case '已满标':
+                                                                               mcLi7.addClass('bgYellow');
+                                                                               return '0';
+                                                                               break;
+                                                                           case '还款中':
+                                                                               mcLi7.addClass('bgGrey');
+                                                                               return '0';
+                                                                               break;
+                                                                           case '已结束':
+                                                                               mcLi7.addClass('bgGrey');
+                                                                               that.children().first().addClass('bgGrey').removeClass('bgGreen');
+                                                                               return '0';
+                                                                               break;
+                                                                           default:
+                                                                               mcLi7.addClass('bgPink');
+                                                                               return (100 - parseInt(sell_height_num)) + "%";
+                                                                               break;
+                                                                       }
+                                                                   }
+                                      )
+                                  }
+    )
 }
 bfb_deco();
 /*千分符*/
-function splits(str){
-    var str2=str.toString().split(".")[1]
-    str2= typeof (str2)==="undefined"?'.00':'.'+str2
-   return str.toString().split(".")[0].split("").reverse().join("").replace(/(\d{3}(?!$))/g,"$1,").split('').reverse().join('')+str2;
+function splits(str) {
+    var str2 = str.toString().split(".")[1]
+    str2 = typeof (str2) === "undefined" ? '.00' : '.' + str2
+    return str.toString().split(".")[0].split("").reverse().join("").replace(/(\d{3}(?!$))/g, "$1,").split('').reverse().join('') + str2;
 }
 
 /*分页控件*/
-function Pages(){
-
-
-
-
-
+function Pages() {
 
 
 }
-/*退出*/
-$('.clearCook').click(function(){
-var cookie=window.getCookie();
-    cookie.clear();
 
-})
+
+/*退出*/
+$('.clearCook').click(function () {
+                          var date = new Date();
+
+    date.setTime(date.getTime()-10000);
+
+                          document.cookie="userId=828; expires="+date.toGMTString();
+                          cookie = document.cookie;
+                          for (var i = 0, length = cookie.length; i < length; i++) {
+                              cookie[i]='';
+                          }
+console.log(cookie);
+                          $('.top').get(1).style.display = 'none';
+                          $('.top').get(0).style.display = 'block';
+                      }
+)
 
 
 
